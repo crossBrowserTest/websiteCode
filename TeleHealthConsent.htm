@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)http://webservices-dev.caregroup.org/telehealth/main.aspx?token=Vyt6M3FtazIzS289 -->
+<!-- File stopped working for me I made a second version of it named it *2.htm -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>TeleHealth</title>
+    
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"> </script>
+    <script type="text/javascript" src="./TeleHealthConsent_files/jquery.min.js"></script>
+    <script type="text/javascript" src="./TeleHealthConsent_files/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./TeleHealthConsent_files/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="./TeleHealth_files/progressStep.min.js"></script>
+    <link rel="stylesheet" href="./TeleHealthConsent_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./TeleHealthConsent_files/jquery-ui.min.css">
+    <script src="./TeleHealthConsent_files/main.js"></script>
+    
+    <link href="./TeleHealthConsent_files/main.css" rel="stylesheet">
+    <link href="./TeleHealth_files/iPhone.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="http://webservices-dev.caregroup.org/telehealth/images/BILHlogo.png">
+  </head>
+<body>
+    
+    <form method="post" action="http://webservices-dev.caregroup.org/telehealth/main.aspx?token=Vyt6M3FtazIzS289" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="A36WYG8NnsM7Lu7bcrDr+AEnuxEdPOeD0UfcpiuNMY4dsIj9f+ocXrkeifRTygEbAp9NdjmjVf22n7kuLO158oiroZF/rKpnd4wZ6TVybqEh5u5Qh6TR0ML881Oaz92Sfv50STodWXXPXhZRO9xOP7shjwenPCyEHhyKmX5Et5zrsDriLHZqVfBUJwhFglclu5tw6WAVJOpn5h+EiH9afz/t5CxCmPI9GvWWZqALvWt/wJUjSFx6YObpnotpkQ64">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./TeleHealthConsent_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./TeleHealthConsent_files/WebResource(1).axd" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D838A4AA">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="cviXLDLEqPIDWCPxRsBHnQ9PhH6BM9TkhTtZoeqqYEQGoTvLVPNlfWPcznBFpQX/HvbujrE2CM1P8UHEee4FRRnITGug6vqMdCaReKISSDJHeNOZiVXPPzUErUz44XelQRu+tfWxCmW7r+VnZ6Ofvj78ipt7t28EJqIm7AAwisjA+tN2qCSvh5ay9Kd2MR3+PSGyhURU3/8gwalm1sng/dRszhsANeyTKP2YRPZUHwz6gWgkmxKVdwbQAOQGbCsGD5AtMf4HUQHV9VZeUkW/3tIU72gCWXGgiNFvAOWPduvYYM3O1Jeqt6/U1MSyHTvAkcGj+6eMdw4Zv7UIDYAyALNds3mpZGuFKSmuDQcETdLnPUBzZY1sitAnJYCk7wpHQBTcbbsKzGXIdqxBZ54d02kGDllef6LM+YxScF6kSG053FVBSTtVaXhmt6t031S6">
+</div>
+        <div class="Header_headerContainer">
+            <div class="Header_headerBottom">
+                <div class="Header_headerBottomContainer">
+
+                    <div class="Header_headerLogo">
+                        <img src="./TeleHealthConsent_files/PatSite_BILH_logo.svg" class="TopLogo" alt="BIDMC">
+                    </div>
+                    <div class="Header_headerNavbar">
+                        <div class="Header_headerNav" style="padding-top: 8%; padding-right: 10px;">
+                            <p>
+                                Wednesday, July 1, 2020&nbsp;&nbsp;<span id="divTimer">10:45:46 PM</span>
+                            </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+          <div class="Index_container" style="padding-bottom: 20px;">
+            <div class="Banner_bannerContainer">
+              <div class="Banner_bannerTitleContainer">
+                    <h2 class="Banner_bannerTitle">TeleHealth</h2>
+                  
+              <!-- NEW PROGRESS BAR JQUERY & RAPHAEL  --> 
+                <div id="progressBar" class="progBar"></div>
+                <script>
+                    var $progressDiv = $("#progressBar");  
+                    var $progressBar = $progressDiv.progressStep({
+                        fillColor: "#fff",
+                        strokeColor: "#999",
+                        visitedFillColor: "#F7915A",
+                        activeColor: "#F7915A",
+                    });  
+                    $progressBar.addStep("Start");  
+                    $progressBar.addStep("Consent");  
+                    $progressBar.addStep("Wait Room");
+                    $progressBar.addStep("See Doctor");
+                    $progressBar.refreshLayout();  
+                    $progressBar.setCurrentStep(1);
+                    $progressBar.getStep(0).setVisited(true);
+                </script>  
+              </div>
+              
+              <div class="Banner_bannerWhiteContainer">
+                 <div class="Index_messagesDesktop_pvd">
+                        <div class="Filters_filtersInnerContainer">
+                            <div style="background-color: white; min-height: 300px; width: 100%; padding-top: 1%; padding-bottom: 1%;">
+                              
+                              <!--  OLD PROGRESS BAR CODE -->
+                              <!--
+                                <div style="width: 100%; display: flex; justify-content: center; flex-wrap: wrap;">
+                                    &nbsp;&nbsp;
+                                    <div>
+                                        <svg height="60" width="60">
+                                            <g>
+                                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#1c9bd7"></circle>
+                                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">1</text>
+                                            </g>
+                                        </svg>
+                                        <svg height="60" width="70">
+                                            <text x="0" y="35" fill="#1c9bd7" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Welcome</text>
+                                        </svg>
+                                        <svg height="60" width="20">
+                                            <polygon points="6 22, 20 30, 6 38" fill="#1c9bd7"></polygon>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg height="60" width="60">
+                                            <g>
+                                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#f57530"></circle>
+                                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">2</text>
+                                            </g>
+                                        </svg>
+                                        <svg height="60" width="70">
+                                            <text x="0" y="35" fill="#f57530" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Consent</text>
+                                        </svg>
+                                        <svg height="60" width="20">
+                                            <polygon points="6 22, 20 30, 6 38" fill="#1c9bd7"></polygon>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg height="60" width="60">
+                                            <g>
+                                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#1c9bd7"></circle>
+                                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">3</text>
+                                            </g>
+                                        </svg>
+                                        <svg height="60" width="70">
+                                            <text x="0" y="35" fill="#1c9bd7" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Waiting Room</text>
+                                        </svg>
+                                        <svg height="60" width="20">
+                                            <polygon points="6 22, 20 30, 6 38" fill="#1c9bd7"></polygon>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <svg height="60" width="60">
+                                            <g>
+                                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#1c9bd7"></circle>
+                                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">4</text>
+                                            </g>
+                                        </svg>
+                                        <svg height="60" width="85">
+                                            <text x="0" y="35" fill="#1c9bd7" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Virtual Visit</text>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div style="width: 100%; height: 1px; background-color: lightgray; overflow: hidden;"></div>
+                                -->
+                              <!--  END OF PB COD  -->
+                              
+                                <div style="padding-left: 2%; padding-right: 2%; padding-top: 20px; padding-bottom: 5px; width: 100%; display: flex; justify-content: center;">
+                                    <div style="width: 80%; height: 450px; overflow: auto;">
+                                        <p align="center">
+                                            <strong>BETH ISRAEL DEACONESS MEDICAL CENTER (BIDMC) AND                                         
+                                                HARVARD MEDICAL FACULTY PHYISICIANS AT BETH ISRAEL DEACONESS MEDICAL
+                                                CENTER (HMFP)
+                                            </strong>
+                                        </p>
+                                        <p align="center">
+                                            <strong>CONSENT TO PARTICIPATE IN A TELEMEDICINE VISIT</strong>
+                                        </p>
+                                        <p>
+                                            1. I hereby consent to engage in a telemedicine visit with a provider of
+                                            BIDMC or HMFP (the “Practice”) as part of my continuing care and treatment.
+                                            The services delivered by the provider during this telemedicine visit are
+                                            limited to evaluation and management services.
+                                        </p>
+                                        <p>
+                                            2. <u>What is telemedicine</u>? I understand that telemedicine uses
+                                            interactive two-way audio-video conferencing technologies between a
+                                            provider and a patient who are not in the same physical location and, as
+                                            such, the services may not be as complete as a face-to-face visit with my
+                                            provider. The alternative to a telemedicine visit is a face-to-face visit
+                                            with a Practice provider.
+                                        </p>
+                                        <p>
+                                            3. <u>Privacy and Security in Telemedicine</u>. I understand that the laws
+                                            regarding patient access to medical records and those that protect the
+                                            confidentiality of my medical information also apply to telemedicine
+                                            visits. The interactive technologies used in telemedicine incorporate
+                                            network and software security protocols to protect the confidentiality of
+                                            patient information transmitted. These protocols include measures to
+                                            safeguard the data and to aid in protecting against intentional or
+                                            unintentional corruption.
+                                        </p>
+                                        <p>
+                                            4. <u>Participants</u>. I understand that I will be informed of the
+                                            identities of all parties present during the telemedicine visit and have
+                                            the right to ask any individuals to leave the remote provider’s location.
+                                            As part of the teaching mission of this Hospital, I understand that
+                                            physicians in training (known as “residents”) may also be involved in my
+                                            telehealth visits.
+                                        </p>
+                                        <p>
+                                            5. <u>Risks involved in using Telemedicine Equipment</u>. The potential
+                                            risks of telemedicine are that the privacy and security of transmitting
+                                            health information cannot be guaranteed and that electronic exchanges may
+                                            experience errors or delays. In the case of technology or equipment
+                                            failure, the Practice will arrange for a face-to-face visit with a
+                                            provider.
+                                        </p>
+                                        <p>
+                                            6. <u>Benefits of Telemedicine. No Assurances on Outcome.</u> The benefits
+                                            of telemedicine include convenient, real-time access to Practice providers.
+                                            While I understand that I may benefit from telemedicine, I also understand
+                                            that the results cannot be guaranteed or assured.
+                                        </p>
+                                        <p>
+                                            7. <u>Right To Decline Services</u>. I understand that I may decline to
+                                            receive services from the Practice via telemedicine at any time without
+                                            jeopardizing my access to future care, services, and benefits.
+                                        </p>
+                                        <p>
+                                            8. <u>Financial Consent for Telemedicine Billing</u>. I understand that I
+                                            may receive a bill for services rendered via telemedicine and I that I
+                                            might also be responsible for any applicable co-payment and/or deductible
+                                            for my visit depending upon the nature of any insurance coverage I
+                                            maintain.
+                                        </p>
+                                        <p>
+                                            9. I have read this document carefully and understand the risks and
+                                            benefits of receiving my care via telemedicine. I understand that I may
+                                            receive a bill for this telemedicine visit and may also have copayment or
+                                            deductible obligations. I have had my questions regarding the visit
+                                            explained. By proceeding with this telemedicine visit, I hereby consent to
+                                            telemedicine treatment with the remote Practice provider under the terms
+                                            described herein.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div>&nbsp;</div>
+                              
+                                <div style="padding-left: 2%; padding-right: 2%; padding-top: 5px; padding-bottom: 5px; display: flex; justify-content: center;">
+                                    <div style="width: 80%; display: flex; justify-content: flex-start; flex-wrap: wrap;">
+                                        <p class="messageHeadLabel">
+                                            Enter Your Name To Indicate Your Agreement&nbsp;&nbsp;
+                                        </p>
+                                        <p style="width: 100%">
+                                            <input name="txtPatientName" type="text" id="txtPatientName" placeholder="Your Name Here" style="margin-left: 5px; margin-right: 5px; border: 1px solid lightgray; border-radius: 5px; padding-left: 8px; width: inherit;">
+                                        </p>
+                                        
+                                    </div>
+                                </div>
+                              
+                                <div style="padding-left: 2%; padding-right: 2%; padding-top: 5px; padding-bottom: 5px; width: 100%; display: flex; justify-content: center;">
+                                    <div>
+                                        <a id="lbtnStep2" class="btn btn-primary" href="./TeleHealthW">Go to "Waiting Room"</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+              </div>
+              
+            </div>
+            
+                   
+            <div class="modal fade" id="alertModal" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" style="color: #1c9bd7;">Alert</h5>
+                            <button type="button" class="close" data-dismiss="modal">×</button>
+                        </div>
+                        <div class="modal-body">
+                            <div>
+                                <span style="color: blue;">
+                                    To proceed please type your name in the text box to indicate your agreement.</span>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      
+        <div>
+            <input type="hidden" name="hfViewNum" id="hfViewNum" value="1">
+            <input type="hidden" name="hfToken" id="hfToken" value="Vyt6M3FtazIzS289">
+            <input type="hidden" name="hfApptId" id="hfApptId" value="20">
+            <input type="hidden" name="hfMrn" id="hfMrn" value="1046834">
+            <input type="hidden" name="hfPopup" id="hfPopup" value="0">
+            <input type="hidden" name="hfVideoUrl" id="hfVideoUrl">
+            <input type="hidden" name="hfVideoPasscode" id="hfVideoPasscode">
+            <input type="hidden" name="hfChatUrl" id="hfChatUrl">
+            <input type="hidden" name="hfChatOn" id="hfChatOn" value="0">
+            <input type="hidden" name="hfPasscode" id="hfPasscode" value="414902">
+            <input type="hidden" name="hfPatientName" id="hfPatientName">
+            <input type="hidden" name="hfDobAttempts" id="hfDobAttempts" value="0">
+            <input type="hidden" name="hfUserName" id="hfUserName" value="Patient">
+            <input type="hidden" name="hfVisitId" id="hfVisitId" value="16174 0347">
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+WebForm_AutoFocus('txtPatientName');//]]>
+</script>
+</form>
+
+
+</body></html>

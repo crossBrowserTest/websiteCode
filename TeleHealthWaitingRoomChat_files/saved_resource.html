@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- saved from url=(0146)https://telehealthchatdev.bidmc.org/?chatroom_id=4D9E6AAD-0775-4D9B-97ED-2E65E906E340&user_name=Patient&nonce=5e84fee1-89b0-4de9-99e4-a9cc5f2586e8 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./all.min.css" integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>BIDMC Chat App</title>
+  </head>
+  <body>
+    <div id="loading" style="display: none;">Loading...</div>
+    <div id="message-container" style="display: none; text-align: center; margin: 0 auto;">
+      <div id="message" style="display: inline-block;">Invalid Token</div>
+    </div>
+    <div class="chat-container" id="chat-container" style="display: block;">
+      <div id="notification" style="display: none">
+        <i class="fas fa-comments" id="notification-icon" onclick="toggleChat()" style="color: rgb(138, 138, 138);"></i>
+      </div>
+      <div id="chat" tabindex="100" style="display: block;">
+        <header class="chat-header">
+          <h1 hidden=""><i class="far fa-comment-dots"></i> Waiting Room Messaging</h1>
+          <!-- <a href="index.html" class="btn">Leave Room</a> -->
+        </header>
+        <main class="chat-main">
+          <div class="chat-messages"><div class="message"><p class="meta"> <span>10:46 pm</span></p>
+  <p class="text">
+    Welcome to BIDMC Waiting Room Messaging !
+  </p></div></div>
+        </main>
+        <div class="chat-form-container">
+          <form id="chat-form">
+            <input id="msg" type="text" placeholder="Enter Message" required="" autocomplete="off">
+            <button class="btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="./qs.min.js" integrity="sha256-TDxXjkAUay70ae/QJBEpGKkpVslXaHHayklIVglFRT4=" crossorigin="anonymous"></script>
+    <script src="./socket.io.js"></script>
+    <script src="./main.js"></script>
+  
+
+</body></html>
