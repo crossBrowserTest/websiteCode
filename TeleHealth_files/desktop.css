@@ -1,1 +1,400 @@
 /*////////  desktop   ///////////*/
+
+@media screen and (min-width: 769px) {
+  
+  html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Header_headerContainer, .Index_container, .Header_headerBottom, {
+    width: inherit;
+  }
+  
+  
+  .Header_headerBottomContainer {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+
+  }
+  
+  .Header_headerNavbar {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    
+  }
+  
+  .Header_headerNav {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+    overflow: hidden;
+  }
+  
+    .Banner_bannerContainer {
+        background-color: #fff;
+        width: 100%;
+        height: 150px; /*top banner hight*/
+    }
+    
+    .Banner_bannerTitle {
+        position: absolute;
+        width: 120px;
+        height: 19px;
+        text-align: left;
+        align-content: flex-start;
+        top: 15%;
+        font-size: 46px;
+    }
+    
+  .Banner_bannerTitleContainer {
+        position: relative;
+  }
+    
+    .TopLogo {
+        width: 154px;
+        height: 50px;
+        margin: auto;
+        align-content: flex-start;
+        padding: 0px 0px 0px 0px;
+    }
+    .Banner_bannerWhiteContainer {
+        position: relative;
+        background-color: #ffffff;
+        width: 90%;
+        height: auto;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 20px;
+    }
+    .WelcomeBIDMC {
+        background-color: #ffffff;
+        padding: 30px 7px 0px 7px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-family: Roboto Medium;
+        font-size: 35px;
+        color: #1758B9;
+    }
+    .centerText {
+        text-align: left;
+        padding: 40px 7px 0px 10px;
+        font-family: Roboto Light;
+        font-size: 20px;
+        
+    }
+    .dateDiv {
+        width: 80%; 
+        display: inline-block; 
+        flex-wrap: wrap;
+        
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        align-content: center;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+    .btn.btn-primary {
+        background-color: #CACED2;
+        width: 360px;
+        height: 100%;
+        color: #504F4F;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    #lbtnStep2 {
+      background-color: #F57530;
+      color: #fff;
+    }
+    .icon {
+        padding: 10px;
+        background: dodgerblue;
+        color: white;
+        min-width: 50px;
+        text-align: center;
+    }
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    .getStartedtxt {
+        align-content: center;
+        width: inherit;
+    }
+    .getStartedtxt > p {
+        text-align: left;
+        padding: 48px 0px 0px 33px;
+        font-family: Roboto, bold;
+        font-size: 16px;
+    }
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        float: right;
+        width:50%;
+        height: 70px;
+        
+    }
+  
+/*     Dropdown Menu Code     */
+  
+    .dropbtn {
+    background-color: #FFF;
+    color: #2C378C;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown {
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 40px;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    font-family: Roboto light;
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    background-color: #FFF;
+    text-decoration: underline;
+  }
+  
+/* ^^^^Dropdown Menu Code^^^^ */
+    
+    
+  /* This functions are for TeleHealthConsent.htm */
+  .messageHeadLabel {
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 14px;
+  }
+  
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 100%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .contText, .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+  .chatBar {
+    font-family: Roboto Medium;
+    font-size: 16px;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px;
+    margin-top: 65%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: relative;
+    width: 100%;
+    height: 25%;
+   
+  }
+  .chatBtn {
+    position: absolute;
+    bottom: 54px;
+    color: #2C378C;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px 0px 1px 0px solid;
+    border-style: solid;
+    border-color: #E6E6E6;
+    width: 100%;
+    height: 47px;
+  }
+  .MSNfield {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  .sendBtn {
+    width: 30%;
+    height: 47px;
+    background-color: #F57530;
+    color: #fff;
+    
+  }
+  .dateDiv > label {
+    width: 100%;
+    text-align: left;
+  }
+  .welcomeWrapperRight  {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    height: 100%;
+    float: right;
+    text-align: center;
+  }
+  .welcomeWrapperLeft  {
+    float: left;
+    width: 50%
+  }
+  .consentBtn {
+    position: absolute;
+    top: 80%;
+  }
+  .thksTXT {
+    padding-left: 20px; 
+    padding-right: 2%; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 80%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: left;
+    font-family: Roboto; 
+    
+  }
+  .HeaderTxt {
+    font-size: 35px;
+  }
+  .subTitle {
+    font-size: 20px;
+  }
+  .waitHeader {
+    margin: 30px 0px 0px 0px;
+    line-height: 35px;
+    text-align: left;
+    font-family: Roboto Medium;
+    font-size: 35px;
+  }
+  .waitSubTitle {
+    margin: 0;
+    line-height: 20px;
+    text-align: left;
+    font-family: Roboto Black;
+    font-size: 29px;
+    padding-top: 20px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight > p {
+    padding-top: 40px;
+    margin: 0px;
+    font-family: Roboto light;
+    font-size: 20px;
+    text-align: left;
+   
+  }
+  .waitingWrapperLeft {
+    width: 45%;
+    float: left;
+  
+  }
+  .waitingWrapperRight {
+    width: 45%;
+    float: right;
+    padding: 0px;
+  }
+  .connectingHeader {
+    line-height: 35px;
+    text-align: left;
+    font-family: Roboto Medium;
+    font-size: 35px;
+  }
+  .connectingSubTitle {
+      line-height: 20px;
+      text-align: left;
+      font-family: Roboto Medium;
+      font-size: 20px;
+  }
+  .counterLBL {
+    margin-top: 13%;
+    font-family: Roboto light;
+    font-size: 20px;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 180px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 120px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 20px; 
+    padding-top: 10;
+  }
+  .bntCall {
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    justify-content: center;
+  }
+    .chatInput {
+      margin-left: 5%;
+    height: 47px;
+    width: 60%;
+  }
+}
+/*    ////////////////    */
