@@ -19,6 +19,7 @@
   
   .Header_headerNavbar {
     width: 100%;
+    margin-top: 10px;
     padding: 0px 10px 0px 10px;
     overflow: hidden;
     
@@ -46,9 +47,9 @@
     }
     
     .TopLogo {
-        width: 154px;
-        height: 50px;
-        margin: auto;
+        width: 100%;
+        height: auto;
+        margin: 0;
         align-content: flex-start;
         padding: 0px 0px 0px 0px;
     }
@@ -147,7 +148,7 @@
     .dropbtn {
     background-color: #FFF;
     color: #2C378C;
-    padding: 16px;
+    padding: 6px;
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -198,6 +199,7 @@
     color: #4F4F4F;
     font-family: Roboto;
     font-size: 14px;
+    width: 100%;
   }
   
   /* Functions for TeleHealthWaitingRoom.htm */
@@ -359,6 +361,22 @@
   .chatInput {
     height: 47px;
     width: 68.7%;
+  }
+    .contentInput {
+    width: 85%; 
+    height: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px; 
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
   }
     
 }
