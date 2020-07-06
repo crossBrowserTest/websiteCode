@@ -45,7 +45,7 @@
         align-content: flex-start;
         font-size: 25px;
     }
-    
+  
     .TopLogo {
         width: 100%;
         height: auto;
@@ -58,6 +58,33 @@
         width: 90%;
         height: 70px;
         margin: 10px 0px 0px 0px;
+    }
+    .Index_messagesDesktop_pvd {
+      background-color: #fff;
+      height: 100px;
+    }
+    .txtContainer {
+      background-color: #fff;
+      min-height: 700px; 
+      width: 100%; 
+      padding-top: 1%; 
+      padding-bottom: 1%;
+    }
+    .txtBoxStp2 {
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+    }
+    .innerTxtStp2 {
+        background-color: #fff; 
+        width: 80%;
+        overflow: auto;
     }
     .WelcomeBIDMC {
         background-color: #ffffff;
@@ -311,6 +338,7 @@
     margin: 0;
     line-height: 19px;
     text-align: center;
+    font-family: Roboto Black;
     font-size: 16px;
   }
   .waitingWrapperLeft, .waitingWrapperRight {

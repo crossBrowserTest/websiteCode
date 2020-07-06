@@ -13,8 +13,9 @@
   
   
   .Header_headerBottomContainer {
+    background-color: white;
     width: 100%;
-    margin: 0;
+
     position: relative;
     display: inline-block;
 
@@ -56,11 +57,23 @@
     .Banner_bannerTitleContainer {
           position: relative;
     }
-    .topContainer {
-        
+    .container {
+        width: 80%;
+        padding-right: 0px 0px 0px 0px;
+        margin-left: 10%;
+        margin-right: 10%;
     }
+
     .logoContainer {
 
+    }
+    .logoContainer {
+      padding: 100px;
+      background-color: red;
+      position: absolute;
+      left:100%;
+      
+        
     }
     .TopLogo {
         width: 100%;
@@ -138,7 +151,7 @@
     }
     .getStartedtxt > p {
         text-align: left;
-        padding: 48px 0px 0px 33px;
+        padding: 48px 0px 0px 63px;
         font-family: Roboto, bold;
         font-size: 20px;
     }
