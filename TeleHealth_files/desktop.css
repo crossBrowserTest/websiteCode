@@ -87,7 +87,7 @@
         position: relative;
         background-color: #ffffff;
         width: 90%;
-        height: 950px;
+        height: 1000px;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 20px;
     }
@@ -124,18 +124,31 @@
         border-radius: 5px; 
         padding-left: 8px;
     }
-    .btn.btn-primary {
-        background-color: #F57530;
+    .btn.btn-primary#lbtStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
         width: 360px;
         height: 100%;
-        color: #fff;
         font-family: Roboto;
         font-size: 18px;    
     }
-    #lbtnStep2 {
-      background-color: #F57530;
-      color: #fff;
+    .btn.btn-primary:hover {
+        background-color: #F57530;
+        color: #fff;
     }
+        .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+
     .icon {
         padding: 10px;
         background: dodgerblue;
@@ -287,6 +300,10 @@
     width: 100%;
     height: 47px;
   }
+  .chatBtn:hover {
+    background-color: #F57530;
+    color: #fff;
+  }
   .MSNfield {
     position: absolute;
     bottom: 0;
@@ -296,9 +313,12 @@
   .sendBtn {
     width: 30%;
     height: 47px;
+    background-color: #CACED2;
+    color: #504F4F;
+  }
+  .sendBtn:hover {
     background-color: #F57530;
     color: #fff;
-    
   }
   .dateDiv > label {
     width: 100%;
