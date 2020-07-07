@@ -67,13 +67,13 @@
         padding: 50px 0px 5px 0px;
     }
     .Index_container {
-      height: 950px;
+      height: 750px;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
         background-color: #ffffff;
         width: 90%;
-        height: 800px;
+        height: 650px;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 20px;
     }
@@ -267,13 +267,15 @@
       height: 46px;
   }
   .chatBar {
+    position: absolute;
+    bottom: 255px;
     font-family: Roboto Medium;
     font-size: 16px;
     color: #fff;
     vertical-align: middle;
     text-align: center;
     padding: 8px;
-    margin-top: 65%;
+    margin-top: 0%;
     margin-left: 5%;
     margin-right: 5%;
     width: 90%;

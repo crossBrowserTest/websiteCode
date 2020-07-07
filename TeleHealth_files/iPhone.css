@@ -54,15 +54,6 @@
         align-content: flex-start;
         padding: 0px 0px 0px 0px;
     }
-    .Index_container {
-      height: 650px;
-    }
-    .Banner_bannerWhiteContainer{
-        background-color: #ffffff;
-        width: 90%;
-        height: 500px;
-        margin: 10px 0px 0px 0px;
-    }
     .Index_messagesDesktop_pvd {
       background-color: #fff;
       height: 100px;
@@ -236,7 +227,7 @@
   /* Functions for TeleHealthWaitingRoom.htm */
   .waitingState {
     width: 100%;
-    height: 100%;
+    height: 70%;
   }
   .connectingState {
     width: 100%;
@@ -253,13 +244,22 @@
       color: #fff;
       height: 46px;
   }
+    .Index_container {
+      height: 550px;
+    }
+    .Banner_bannerWhiteContainer{
+        background-color: #ffffff;
+        width: 90%;
+        height: 650px;
+        margin: 10px 0px 0px 0px;
+    }
   .chatBar {
     font-family: Roboto Medium;
     font-size: 14px;
     color: #fff;
     text-align: center;
     padding: 2px 2px 2px 2px;
-    margin-top: 350px;
+    margin-top: px;
     width: 100%;
     height: 22px;
     background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
