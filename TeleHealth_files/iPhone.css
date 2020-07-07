@@ -54,10 +54,13 @@
         align-content: flex-start;
         padding: 0px 0px 0px 0px;
     }
+    .Index_container {
+      height: 650px;
+    }
     .Banner_bannerWhiteContainer{
         background-color: #ffffff;
         width: 90%;
-        height: 70px;
+        height: 500px;
         margin: 10px 0px 0px 0px;
     }
     .Index_messagesDesktop_pvd {

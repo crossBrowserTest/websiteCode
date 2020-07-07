@@ -66,11 +66,14 @@
         background-color: red;
         padding: 50px 0px 5px 0px;
     }
+    .Index_container {
+      height: 950px;
+    }
     .Banner_bannerWhiteContainer {
         position: relative;
         background-color: #ffffff;
         width: 90%;
-        height: auto;
+        height: 800px;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 20px;
     }
@@ -317,8 +320,8 @@
   .welcomeWrapperRight  {
     position: absolute;
     left: 50%;
-    top: 25%;
-    height: 100%;
+    top: 10%;
+    height: 50%;
     float: right;
     text-align: center;
   }
