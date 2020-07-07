@@ -39,6 +39,7 @@
     }
     
     .Banner_bannerTitle {
+        font-family: Ubuntu medium;
         width: 120px;
         height: 19px;
         text-align: left;
