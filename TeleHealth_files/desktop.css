@@ -303,9 +303,9 @@
   }
   .MSNfield {
     position: absolute;
-    background-color: red;
+    background-color: #fff;
     bottom: 0;
-    width: 90%;
+    width: 100%;
     display: none;
   }
   .sendBtn {
@@ -435,10 +435,10 @@
     display: flex; 
     justify-content: center;
   }
-    .chatInput {
-      margin-left: 5%;
+  .chatInput {
+    /*margin-left: 5%;*/
     height: 47px;
-    width: 60%;
+    width: 69.5%;
   }
   .contentInput {
     width: 38%; 
