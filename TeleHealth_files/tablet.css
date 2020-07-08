@@ -253,37 +253,48 @@
   
 /*     Dropdown Menu Code     */
   
-    .dropbtn {
-    background-color: #FFF;
-    color: #2C378C;
-    padding: 16px;
+ select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 10px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 70px;
+    outline: 0px;
+    border: 0px;
     font-size: 16px;
-    border: none;
-    cursor: pointer;
+    color: #2C378C;
+    background-image: url(Icons_Telehealth/ChevronDown.png)
+  }
+  select:hover{
+    color: #F7915A;
   }
 
   .dropdown {
+    
+    text-align: right;
+    min-width: 260px;
     float: right;
     position: relative;
     display: inline-block;
   }
 
-  .dropdown-content {
+  .dropdown#dropdown-content {
     
-    display: none;
     position: absolute;
     right: 0;
     top: 40px;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: palegoldenrod;/*#f9f9f9;*/
+    color: red;
+    min-height: 25px;
+    width: 200px;
     z-index: 1;
   }
 
-  .dropdown-content a {
+  .dropdown-content {
     font-family: Roboto light;
-    color: black;
-    padding: 10px 16px;
+    color: red;
+    text-align: right;
     text-decoration: none;
     display: block;
   }
@@ -293,11 +304,8 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+ 
 
-  .dropdown:hover .dropbtn {
-    background-color: #FFF;
-    text-decoration: underline;
-  }
   
 /* ^^^^Dropdown Menu Code^^^^ */
     
