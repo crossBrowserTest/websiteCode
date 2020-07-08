@@ -302,23 +302,7 @@
 /* ^^^^Dropdown Menu Code^^^^ */
     
     
-  /* This functions are for TeleHealthConsent.htm */
-  .messageHeadLabel {
-      width: 100%;
-      position: absolute;
-      top: 22%;  
-      text-align: left;
-      color: #4F4F4F;
-      font-family: Roboto;
-      font-size: 16px;
-  }
-  .messageHeadLabel#hdlabelConsent2 {
-      width: 50%;
-      left: 24%;
-      top: 0;
-      margin-bottom: 10%;
-  }
-    
+/* This functions are for TeleHealthConsent.htm */
   .inputWrapper {
     width: 100%;
     height: 90px;
@@ -330,9 +314,32 @@
     display: flex;
     text-align: center;
   }
+/* controls inputbox position */
+  #inputConsent2 {
+      width: 100%;
+      position: absolute;
+      top: 30%;
+      right: 0%;
+  }
+  .messageHeadLabel {
+      width: 100%;
+      position: absolute;
+      top: 22%;  
+      text-align: left;
+      color: #4F4F4F;
+      font-family: Roboto;
+      font-size: 16px;
+  }
+  /* Controls Label on top of inputbox position */
+  .messageHeadLabel#hdlabelConsent2 {
+      width: 50%;
+      left: 24%;
+      top: 10;
+      margin-bottom: 10%;
+  }
 
   
-  #txtPatientName {
+  #txtPatientInput {
     margin-top: 3%;
     border: 1px solid lightgray;
     border-radius: 5px;

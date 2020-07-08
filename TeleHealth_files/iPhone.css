@@ -285,6 +285,24 @@
     
     
   /* This functions are for TeleHealthConsent2.htm */
+  .inputWrapper {
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+  /*This controls the inputbox position*/
+  #inputConsent2 {
+      width: 100%;
+      /*background-color: violet;*/
+      position: absolute;
+      top: 10%;
+      right: 0%;
+    }
   .messageHeadLabel {
     position: relative;
     color: #4F4F4F;
@@ -299,17 +317,7 @@
       left: 15%;
       text-align: left;
   }
-  .inputWrapper {
-    width: 100%;
-    height: 100px;
-    position: absolute;
-    top: 450px;
-    left: 0;
-    padding: 8px;
-    display: flex;
-    text-align: center;
-  }
-  #txtPatientName {
+  #txtPatientInput {
     margin-top: 12%;
     border: 1px solid lightgray;
     border-radius: 5px;
@@ -317,9 +325,10 @@
     width: 294px; 
     height: 36px;
   }
+  /* Controls position of the BOTTON */
   .btnWrapper{
     position: absolute;
-    top:550px;
+    bottom:0%;
     left: 0;
     padding-left: 2%;
     padding-right: 2%;

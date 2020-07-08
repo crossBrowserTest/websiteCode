@@ -34,7 +34,6 @@
   }
   
     .Banner_bannerContainer {
-        background-color: red;
         width: 100%;
         height: 231px; /*top banner hight*/
     }
@@ -56,7 +55,6 @@
     
     .logoContainer {
       padding: 100px;
-      background-color: red;
       position: absolute;
       left:100%;
     }
@@ -71,6 +69,10 @@
       width: inherit;
       padding-bottom: 0px;
     }
+    
+    .Index_container#consent2 {
+      height: 1287px;
+    }
 
     .Banner_bannerWhiteContainer {
         position: relative;
@@ -81,7 +83,7 @@
         padding: 0px 0px 0px 0px;
     }    
     .Banner_bannerWhiteContainer#whiteContainerConsent2 {
-        height: 1000px;
+        height: 1175px;
         
     }
     .txtContainer{
@@ -289,44 +291,58 @@
 /* ^^^^Dropdown Menu Code^^^^ */
     
     
-  /* This functions are for TeleHealthConsent2.htm */
-    .messageHeadLabel {
-      width: 50%;
+/* This functions are for TeleHealthConsent2.htm */
+    .inputWrapper {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      height: 150px;
+    }
+    /* controls inputbox position */
+    #inputConsent2 {
+      width: 100%;
       position: absolute;
-      padding-top: 30px;
+      top: 35%;
+      right: 16.5%
+    }
+  
+    .messageHeadLabel {
+      
+      width: 360px;
+      position: absolute;
+      top: 18%;
+      padding-top: 0px;
       text-align: left;
-      top: 15%;
       color: #4F4F4F;
       font-family: Roboto;
       font-size: 16px;
     
     }
-    .messageHeadLabel#hdlabelConsent2 {
-      background-color: red;
-      padding: 0;
-      left: 37.5%;
-      top: 82%;
-      bottom: 20%;
+    /* Controls Label on top of inputbox position */
+    #hdlabelConsent2 {
+      position: absolute;
+      top: 15%;
+      left: 33.6%;
+      color: 4F4F4F;
+      padding: 0px 0px 10px 0px;
+      text-align: left;
+      width: 360px;
+      
+    }
+
+    #txtPatientInput {
+      position: absolute;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding-left: 8px;
+      width: 360px; 
+      height: 36px;
     }
   
-  .inputWrapper {
-    background-color: #fff;
-    padding: 8px;
-    display: flex;
-    text-align: center;
-  }
-
-  
-  #txtPatientName {
-    
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    padding-left: 8px;
-    width: 360px; 
-    height: 36px;
-  }
-  
+  /*controls positon for BOTTON*/
   .btnWrapper{
+    position: absolute;
+    bottom: 0%;
     padding-left: 2%;
     padding-right: 2%;
     padding-top: 5px;
