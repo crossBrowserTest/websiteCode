@@ -65,11 +65,11 @@
     }
 
     .Index_container {
-      height: 815px;
+      height: 915px;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
-        background-color: #ffffff;
+        background-color: #fff;
         width: 90%;
         height: 780px;
         margin: 0px 0px 0px 0px;
@@ -103,7 +103,7 @@
         overflow: auto;
     }
     .WelcomeBIDMC {
-        background-color: #ffffff;
+        margin-left: 15%;
         padding: 30px 7px 0px 7px;
         width: 100%;
         height: 70px;
@@ -113,11 +113,26 @@
         color: #1758B9;
     }
     .centerText {
+        margin-left: 18%;
         text-align: left;
         padding: 40px 7px 0px 10px;
         font-family: Roboto Light;
         font-size: 20px;
         
+    }
+    .getStartedtxt {
+        margin-top: 8px;
+        padding-bottom: 0px;
+        text-align: left;
+        align-content: flex-start;
+        width: 100%;
+    }
+    .getStartedtxt > p {
+        text-align: left;
+        padding: 40px 0px 0px 47px;
+        margin-bottom: 15%;
+        font-family: Roboto, bold;
+        font-size: 16px;
     }
     .dateDiv {
         width: 80%; 
@@ -160,16 +175,7 @@
         width: 24px;
         height: 24px;
     }
-    .getStartedtxt {
-        align-content: center;
-        width: inherit;
-    }
-    .getStartedtxt > p {
-        text-align: left;
-        padding: 48px 0px 0px 33px;
-        font-family: Roboto, bold;
-        font-size: 16px;
-    }
+    
     .Header_headerNav p {
        text-align: right;
        color: #CACED2;
@@ -241,7 +247,7 @@
   .messageHeadLabel {
       width: 100%;
       position: absolute;
-      top: 17%;  
+      top: 22%;  
       text-align: left;
       color: #4F4F4F;
       font-family: Roboto;
@@ -364,15 +370,16 @@
   }
   .welcomeWrapperRight  {
     position: absolute;
-    left: 50%;
+    right: 10%;
     top: 10%;
+    width: 35%;
     height: 50%;
     float: right;
-    text-align: center;
+    text-align: right;
   }
   .welcomeWrapperLeft  {
     float: left;
-    width: 50%
+    width: 52%
   }
   .consentBtn {
     position: absolute;
