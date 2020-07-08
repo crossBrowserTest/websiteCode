@@ -71,18 +71,15 @@
       width: inherit;
       padding-bottom: 0px;
     }
-    .Index_container#consent3 {
-      background-color: blue;
-      height: 1110px;
-      width: inherit;
-      padding-bottom: 0px;
-    }
+
     .Banner_bannerWhiteContainer {
         position: relative;
         background-color: #fff;
         width: 90%;
         height: 965px;
-        margin: 10px 0px 0px 0px;
+        margin: 10px 0px 
+          
+          ..0px 0px;
         padding: 0px 0px 0px 0px;
     }    
     .Banner_bannerWhiteContainer#whiteContainerConsent2 {
@@ -275,9 +272,10 @@
     
     }
     .messageHeadLabel#hdlabelConsent2 {
+      background-color: red;
       padding: 0;
-      left: 37%;
-      top: 85%;
+      left: 37.5%;
+      top: 82%;
       bottom: 20%;
     }
   
