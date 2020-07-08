@@ -39,7 +39,7 @@ body {
     -ms-flex-align: end;
     align-items: flex-end;
     flex-wrap: wrap;
-    border-bottom: solid 8px #1c9bd7;
+    /*border-bottom: solid 8px #1c9bd7;*/ /*<<<was creating a blue line on the bottom*/
     width: 100%;
     padding: 3px;
     
