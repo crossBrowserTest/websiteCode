@@ -379,7 +379,7 @@
   }
   .welcomeWrapperLeft  {
     float: left;
-    width: 52%
+    width: 52%;
   }
   .consentBtn {
     position: absolute;
@@ -408,35 +408,35 @@
     font-size: 20px;
   }
   .waitHeader {
-    margin: 30px 0px 0px 0px;
-    line-height: 35px;
+    margin: 8% 0% 0% 9%;
     text-align: left;
     font-family: Roboto Medium;
     font-size: 35px;
   }
   .waitSubTitle {
-    margin: 0;
-    line-height: 20px;
+    margin: 0% 0% 0% 9%;
     text-align: left;
     font-family: Roboto Black;
-    font-size: 29px;
-    padding-top: 20px;
+    font-size: 20px;
   }
   .waitingWrapperLeft, .waitingWrapperRight > p {
-    padding-top: 40px;
-    margin: 0px;
+    padding-top: 40px;    
     font-family: Roboto light;
     font-size: 20px;
     text-align: left;
    
   }
   .waitingWrapperLeft {
-    width: 45%;
+    padding-right: 15px;
+    margin-left: 8%;
+    width: 44%;
     float: left;
   
   }
   .waitingWrapperRight {
-    width: 45%;
+    margin-right: 8%;
+    padding-left: 15px;
+    width: 32%;
     float: right;
     padding: 0px;
   }
@@ -449,7 +449,7 @@
   .connectingSubTitle {
       line-height: 20px;
       text-align: left;
-      font-family: Roboto Medium;
+      font-family: Roboto Black;
       font-size: 20px;
   }
   .counterLBL {
