@@ -245,12 +245,12 @@
       height: 46px;
   }
     .Index_container {
-      height: 550px;
+      height: 650px;
     }
     .Banner_bannerWhiteContainer{
         background-color: #ffffff;
         width: 90%;
-        height: 650px;
+        height: 500px;
         margin: 10px 0px 0px 0px;
     }
   .chatBar {
@@ -306,7 +306,11 @@
   }
   .consentBtn {
     position: absolute;
-    top: 80%;
+    left: 10%;
+    top: 550px; 
+    width: 80%; 
+    display: flex; 
+    justify-content: center;
   }
   .thksTXT {
     align-content: center;

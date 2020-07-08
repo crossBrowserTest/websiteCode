@@ -115,7 +115,7 @@
               </div>
           
         </div>
-        <div class="Index_container" style="padding-bottom: 20px;">
+        <div class="Index_container">
           <div class="Banner_bannerContainer">
                 
         <!-- Banner Container with Logo  -->        
@@ -206,7 +206,7 @@
 <!-- Progress Bar Code Ends -->
             
          <!-- Body Container Middle part -->   
-            <div class="Banner_bannerWhiteContainer">
+          <div class="Banner_bannerWhiteContainer">
               
               <div class="welcomeWrapperLeft">
                    <p class="WelcomeBIDMC">Welcome to BIDMC!</p>
@@ -216,8 +216,6 @@
                           <br><br>You need to complete a few steps before seeing the doctor. 
                       </p>
                 </div> 
-
-
               </div>
               <div class="welcomeWrapperRight">
                  <div class="getStartedtxt">
@@ -230,21 +228,28 @@
                     </label>
                     <input name="txtDob" type="date" class="txtDob" placeholder="mm/dd/yyyy" >
                   </div>
-              </div>      
-              <div class="Index_messagesDesktop_pvd">
-                <div class="Filters_filtersInnerContainer">
+              </div>
+              
+            <div class="Index_messagesDesktop_pvd">
+              <div class="Filters_filtersInnerContainer">
 
-                        <div style="padding-left: 2%; padding-right: 2%; padding-top: 2px; padding-bottom: 2px; width: 100%; display: flex; justify-content: flex-start;">
-                            <span id="cvDob" style="color:Red;font-family:arial;font-size:Medium;display:none;">Please enter a valid date.</span>
-                            <span id="rvDob" style="color:Red;font-family:arial;font-size:Medium;display:none;">Please enter a valid date.</span>
-                        </div>
+                      <div style="padding-left: 2%; padding-right: 2%; padding-top: 2px; padding-bottom: 2px; width: 100%; display: flex; justify-content: flex-start;">
+                          <span id="cvDob" style="color:Red;font-family:arial;font-size:Medium;display:none;">Please enter a valid date.</span>
+                          <span id="rvDob" style="color:Red;font-family:arial;font-size:Medium;display:none;">Please enter a valid date.</span>
+                      </div>
 
-                        <div style="padding-left: 2%; padding-right: 2%; padding-top: 2px; padding-bottom: 2px; width: 100%; display: flex; justify-content: flex-start;">
-                            <span id="lblStep1Msg" style="color:Red;font-family:arial;font-size:Medium;"></span>
-                        </div>                                
-                </div>
+                      <div style="padding-left: 2%; padding-right: 2%; padding-top: 2px; padding-bottom: 2px; width: 100%; display: flex; justify-content: flex-start;">
+                          <span id="lblStep1Msg" style="color:Red;font-family:arial;font-size:Medium;"></span>
+                      </div>                                
               </div>
             </div>
+                <div class="consentBtn">
+                  <div>
+                    <a id="lbtnStep1" class="btn btn-primary" href="./TeleHealthConsent2.htm">Go to "Consent"</a>
+                  </div>
+                </div>
+              
+          </div>
               
           </div>    
         </div>
@@ -271,12 +276,6 @@
 
                 </div>
             </div>
-        
-        <div class="consentBtn" style="padding-left: 2%; padding-right: 2%; padding-top: 35px; padding-bottom: 5px; width: 100%; display: flex; justify-content: center;">
-            <div>
-                <a id="lbtnStep1" class="btn btn-primary" href="./TeleHealthConsent2.htm">Go to "Consent"</a>
-            </div>
-        </div>
         
         <div>
             <input type="hidden" name="hfViewNum" id="hfViewNum" value="0">

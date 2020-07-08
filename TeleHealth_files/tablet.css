@@ -71,8 +71,8 @@
         background-color: #ffffff;
         width: 90%;
         height: 650px;
-        margin: 10px 0px 0px 0px;
-        padding: 0px 0px 0px 20px;
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
     }
     .Index_messagesDesktop_pvd {
       background-color: #fff;
@@ -331,6 +331,7 @@
   .consentBtn {
     position: absolute;
     top: 80%;
+    left: 27%;
   }
   .thksTXT {
     padding-left: 20px; 
