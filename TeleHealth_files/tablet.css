@@ -72,7 +72,7 @@
         background-color: #fff;
         width: 90%;
         height: 780px;
-        margin: 0px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
     .Index_messagesDesktop_pvd {
@@ -150,19 +150,78 @@
         border-radius: 5px; 
         padding-left: 8px;
     }
-    .btn.btn-primary {
+  
+/*  =========Hover effect for buttons======  */
+    .btn.btn-primary#lbtnStep1 {
         background-color: #CACED2;
-        width: 360px;
-        height: 100%;
         color: #504F4F;
+        width: 360px;
+        height: 40px;
         font-family: Roboto;
         font-size: 18px;    
     }
-    #lbtnStep2 {
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+  
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+
+    .chatBtn {
+    position: absolute;
+    bottom: 54px;
+    color: #2C378C;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px 0px 1px 0px solid;
+    border-style: solid;
+    border-color: #E6E6E6;
+    width: 90%;
+    margin-left: 5%;
+    height: 47px;
+  }
+  .chatBtn:hover {
+    background-color: #F57530;
+    color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
       background-color: #F57530;
       color: #fff;
-    }
-    .icon {
+  }
+/*^^^^^^^  Hover effect buttons ^^^^^*/
+
+  .icon {
         padding: 10px;
         background: dodgerblue;
         color: white;
@@ -338,34 +397,14 @@
     height: 25%;
    
   }
-  .chatBtn {
-    position: absolute;
-    bottom: 54px;
-    color: #2C378C;
-    font-family: Roboto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-width: 1px 0px 1px 0px solid;
-    border-style: solid;
-    border-color: #E6E6E6;
-    width: 90%;
-    margin-left: 5%;
-    height: 47px;
-  }
+
   .MSNfield {
     position: absolute;
     bottom: 0;
     width: 100%;
     display: none;
   }
-  .sendBtn {
-    width: 30%;
-    height: 47px;
-    background-color: #F57530;
-    color: #fff;
-    
-  }
+  
   .dateDiv > label {
     width: 100%;
     text-align: left;
