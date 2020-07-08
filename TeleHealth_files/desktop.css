@@ -67,20 +67,30 @@
         
     }
     .Index_container {
-      height: 1100px;
+      height: 1184px;
       width: inherit;
       padding-bottom: 0px;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
-        background-color: #ffffff;
+        background-color: #fff;
         width: 90%;
-        height: 950px;
+        height: 965px;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
+    }    
+    .Banner_bannerWhiteContainer#whiteContainerConsent2 {
+        
+        background-color: yellow;
+        height: 1085px;
+        
+    }
+    .txtContainer{
+      background-color: #fff;
+      height: 950px;
     }
     .WelcomeBIDMC {
-        background-color: #ffffff;
+        background-color: #fff;
         padding: 30px 7px 0px 7px;
         width: 100%;
         height: 70px;
@@ -97,11 +107,18 @@
         
     }
     .dateDiv {
-        width: 80%; 
-        align-content: flex-start;
-        text-align: left;
+      width: 80%; 
+      align-content: flex-start;
+      text-align: left;
+      padding-top: 35px;
         
     }
+    .dateDiv > label {
+      width: 100%;
+      text-align: left;
+      padding-bottom: 10px;
+    }
+    
     .txtDob {
         /*background: url(./calendar.svg) no-repeat scroll right;*/
         padding-right: 8px;
@@ -112,19 +129,33 @@
         border-radius: 5px; 
         padding-left: 8px;
     }
-    .btn.btn-primary#lbtStep2 {
+  
+    .btn.btn-primary#lbtnStep1 {
         background-color: #CACED2;
         color: #504F4F;
         width: 360px;
-        height: 100%;
+        height: 40px;
         font-family: Roboto;
         font-size: 18px;    
     }
-    .btn.btn-primary:hover {
+    .btn.btn-primary#lbtnStep1:hover {
         background-color: #F57530;
         color: #fff;
     }
-        .btn.btn-primary#lbtnStep3 {
+  
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
         background-color: #CACED2;
         color: #504F4F;
         width: 360px;
@@ -227,12 +258,46 @@
 /* ^^^^Dropdown Menu Code^^^^ */
     
     
-  /* This functions are for TeleHealthConsent.htm */
-  .messageHeadLabel {
-    color: #4F4F4F;
-    font-family: Roboto;
-    font-size: 16px;
+  /* This functions are for TeleHealthConsent2.htm */
+    .messageHeadLabel {
+      width: 50%;
+      position: absolute;
+      padding-top: 30px;
+      text-align: left;
+      top: 15%;
+      color: #4F4F4F;
+      font-family: Roboto;
+      font-size: 16px;
+    
+    }
+  
+  .inputWrapper {
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    text-align: center;
   }
+
+  
+  #txtPatientName {
+    
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 360px; 
+    height: 36px;
+  }
+  
+  .btnWrapper{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
   
   /* Functions for TeleHealthWaitingRoom.htm */
   .waitingState {
@@ -312,16 +377,12 @@
     background-color: #F57530;
     color: #fff;
   }
-  .dateDiv > label {
-    width: 100%;
-    text-align: left;
-  }
   .welcomeWrapperRight  {
     position: absolute;
     width: 40%;
     right: 10%;
     top: 8%;
-    height: 100%;
+    height: 50%;
     float: right;
     text-align: center;
   }
@@ -365,14 +426,14 @@
     font-size: 20px;
   }
   .waitHeader {
-    margin: 30px 0px 0px 0px;
+    margin: 7.8% 0px 0px 8.5%;
     line-height: 35px;
     text-align: left;
     font-family: Roboto Medium;
     font-size: 35px;
   }
   .waitSubTitle {
-    margin: 0;
+    margin-left: 8.4%;
     line-height: 20px;
     text-align: left;
     font-family: Roboto Black;
@@ -388,12 +449,14 @@
    
   }
   .waitingWrapperLeft {
-    width: 45%;
+    margin-left: 8%;
+    width: 35%;
     float: left;
   
   }
   .waitingWrapperRight {
-    width: 45%;
+    margin-right: 8%;
+    width: 35%;
     float: right;
     padding: 0px;
   }

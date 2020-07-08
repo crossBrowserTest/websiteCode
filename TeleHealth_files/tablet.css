@@ -7,16 +7,16 @@
     height: 100%;
     overflow-x: hidden;
   }
-  .Header_headerContainer, .Index_container, .Header_headerBottom, {
-    width: inherit;
-  }
-  
-  
+
   .Header_headerBottomContainer {
     margin: auto;
     position: relative;
     display: inline-block;
 
+  }
+  
+  .Header_headerBottom {
+    
   }
   
   .Header_headerNavbar {
@@ -31,6 +31,7 @@
     margin: auto;
     font-size: 12px;
     text-align: right;
+    padding-top: 10px;
     overflow: hidden;
   }
   
@@ -56,21 +57,21 @@
   }
     
     .TopLogo {
-        width: 100%;
-        height: auto;
-        margin: 0;
-        align-content: flex-start;
-        padding: 0px 0px 0px 0px;
+        padding-right: 50px;
+        padding-top: 10px;
+        width: inherit;
+        height: 115px;
+        
     }
 
     .Index_container {
-      height: 750px;
+      height: 915px;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
         background-color: #ffffff;
         width: 90%;
-        height: 650px;
+        height: 780px;
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
@@ -238,9 +239,47 @@
     
   /* This functions are for TeleHealthConsent.htm */
   .messageHeadLabel {
-    color: #4F4F4F;
-    font-family: Roboto;
-    font-size: 14px;
+      width: 100%;
+      position: absolute;
+      top: 17%;  
+      text-align: left;
+      color: #4F4F4F;
+      font-family: Roboto;
+      font-size: 16px;
+  }
+    
+  .inputWrapper {
+    width: 100%;
+    position: absolute;
+    bottom: 12%;
+    left: 0;
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+
+  
+  #txtPatientName {
+    
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 360px; 
+    height: 36px;
+  }
+  
+  .btnWrapper{
+    position: absolute;
+    bottom: 5%;
+    left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   
   /* Functions for TeleHealthWaitingRoom.htm */
