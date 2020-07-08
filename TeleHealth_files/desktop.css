@@ -67,7 +67,13 @@
         
     }
     .Index_container {
-      height: 1184px;
+      height: 1100px;
+      width: inherit;
+      padding-bottom: 0px;
+    }
+    .Index_container#consent3 {
+      background-color: blue;
+      height: 1110px;
       width: inherit;
       padding-bottom: 0px;
     }
@@ -80,9 +86,7 @@
         padding: 0px 0px 0px 0px;
     }    
     .Banner_bannerWhiteContainer#whiteContainerConsent2 {
-        
-        background-color: yellow;
-        height: 1085px;
+        height: 1000px;
         
     }
     .txtContainer{
@@ -269,6 +273,12 @@
       font-family: Roboto;
       font-size: 16px;
     
+    }
+    .messageHeadLabel#hdlabelConsent2 {
+      padding: 0;
+      left: 37%;
+      top: 85%;
+      bottom: 20%;
     }
   
   .inputWrapper {
