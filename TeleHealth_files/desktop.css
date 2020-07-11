@@ -247,7 +247,7 @@
     text-indent: 15px;
     text-overflow: '';
     text-shadow: 0 0 0 #000;
-    width: 70px;
+    width: 75px;
     margin-top: 5px;
     margin-left: 30px;
     outline: 0px;
@@ -255,10 +255,7 @@
     font-size: 16px;
     color: #2C378C;
   }
-  select:hover {
-    color: #F7915A;
-    
-  }
+  
   
   .icon {
     min-width: 24px;
@@ -272,10 +269,6 @@
   .icon.icon-chevronDown {
     background-image: url(dropdownDisabled.svg);
   }
-  .icon-chevronDown:hover,
-  .icon-chevronDown:focus {
-    background-image: url(dropdown.svg);
-  }
 
 
   .dropdown {
@@ -286,9 +279,15 @@
     position: relative;
     display: inline-block;
   }
-
-
   
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+  
+
 /* ^^^^Dropdown Menu Code^^^^ */
     
     

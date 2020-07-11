@@ -195,13 +195,6 @@
   }
 /*^^^^^^^  Hover effect buttons ^^^^^*/
   
-  .icon {
-        padding: 10px;
-        background: dodgerblue;
-        color: white;
-        min-width: 50px;
-        text-align: center;
-    }
 
     .calIcon {
         padding: 1px;
@@ -235,61 +228,57 @@
   
 /*     Dropdown Menu Code     */
   
-select {
+  select {
+    float: left;
+    /*background-color: yellow;*/
     -webkit-appearance: none;
     -moz-appearance: none;
-    text-indent: 10px;
+    text-indent: 15px;
     text-overflow: '';
     text-shadow: 0 0 0 #000;
-    width: 70px;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
     outline: 0px;
     border: 0px;
     font-size: 16px;
     color: #2C378C;
-    background-image: url(Icons_Telehealth/ChevronDown.png)
   }
-  select:hover{
-    color: #F7915A;
+  
+  
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px;
+    
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
   }
 
+
   .dropdown {
-    
+    width: 100px;
     text-align: right;
-    min-width: 260px;
+    min-width: 130px;
     float: right;
     position: relative;
     display: inline-block;
   }
-
-  .dropdown#dropdown-content {
-    
-    position: absolute;
-    right: 0;
-    top: 40px;
-    background-color: palegoldenrod;/*#f9f9f9;*/
-    color: red;
-    min-height: 25px;
-    width: 200px;
-    z-index: 1;
-  }
-
-  .dropdown-content {
-    font-family: Roboto light;
-    color: red;
-    text-align: right;
-    text-decoration: none;
-    display: block;
-  }
-
-  .dropdown-content a:hover {background-color: #f1f1f1;}
-
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
- 
-
   
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+  
+
 /* ^^^^Dropdown Menu Code^^^^ */
+    
     
     
   /* This functions are for TeleHealthConsent2.htm */
