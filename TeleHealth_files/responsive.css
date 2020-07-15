@@ -116,11 +116,6 @@
       align-content: flex-start;
       text-align: left;      
     }
-/*    .dateDiv > label {
-      width: 100%;
-      text-align: left;
-      padding-bottom: 10px;
-    }    */
     .txtDob {
         /*background: url(./calendar.svg) no-repeat scroll right;*/
         padding-right: 8px;
