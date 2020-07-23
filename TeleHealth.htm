@@ -6,8 +6,9 @@
     <title> TeleHealth </title>
     
     <meta content="width=device-width, initial-scale=1" name="viewport">
-        
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"> </script>
+    
+   
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
     <script type="text/javascript" src="./TeleHealth_files/jquery.min.js"></script>
     <script type="text/javascript" src="./TeleHealth_files/bootstrap.min.js"></script>
     <script type="text/javascript" src="./TeleHealth_files/jquery-ui.min.js"></script>
@@ -22,7 +23,6 @@
     
     </head>
 <body>
-    
     <form method="post" action="http://webservices-dev.caregroup.org/telehealth/main.aspx?token=Vyt6M3FtazIzS289" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
         <div class="aspNetHidden">
         <input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
@@ -124,6 +124,7 @@
   <!-- NEW PROGRESS BAR JQUERY & RAPHAEL  --> 
               <div id="progressBar" class="progBar"></div>
               <script>
+                    $(window).resize(function(){location.reload();});
                     var $progressDiv = $("#progressBar");  
                     var $progressBar = $progressDiv.progressStep({
                         fillColor: "#fff",

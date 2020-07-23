@@ -118,6 +118,7 @@
           <div id="progressBar" class="progBar">   
             </div>
                 <script>
+                    $(window).resize(function(){location.reload();});
                     var $progressDiv = $("#progressBar");  
                     var $progressBar = $progressDiv.progressStep({
                         fillColor: "#fff",
