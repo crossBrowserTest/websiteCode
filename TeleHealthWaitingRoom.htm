@@ -123,8 +123,6 @@
                     var $progressBar = $progressDiv.progressStep({
                         fillColor: "#fff",
                         strokeColor: "#999",
-                        visitedFillColor: "#F7915A",
-                        activeColor: "#F7915A",
                         margin: 30
                     });  
                     $progressBar.addStep("Start");  
@@ -135,6 +133,8 @@
                     $progressBar.setCurrentStep(2);
                     $progressBar.getStep(0).setVisited(true);
                     $progressBar.getStep(1).setVisited(true);
+                  
+                    $(window).resize(function(){$progressBar.refreshLayout();});
                 </script>  
             
         </div>

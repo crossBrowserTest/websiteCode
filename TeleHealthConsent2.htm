@@ -119,13 +119,12 @@
               <!-- NEW PROGRESS BAR JQUERY & RAPHAEL  --> 
               <div id="progressBar" class="progBar"></div>
                 <script>
-                    $(window).resize(function(){location.reload();});
+                    
                     var $progressDiv = $("#progressBar");  
                     var $progressBar = $progressDiv.progressStep({
+                        fontSize: "20px",
                         fillColor: "#fff",
                         strokeColor: "#999",
-                        visitedFillColor: "#F7915A",
-                        activeColor: "#F7915A",
                         margin: 30
                     });  
                     $progressBar.addStep("Start");  
@@ -135,6 +134,8 @@
                     $progressBar.refreshLayout();  
                     $progressBar.setCurrentStep(1);
                     $progressBar.getStep(0).setVisited(true);
+                  
+                    $(window).resize(function(){$progressBar.refreshLayout();});
                 </script>  
             
         </div>
