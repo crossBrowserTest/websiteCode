@@ -1,0 +1,3599 @@
+
+/* //////////////// Galaxy S6, S7, S7 Edge ////////////////// */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 640px) 
+  and (-webkit-min-device-pixel-ratio: 4) {
+
+      html, body, form {
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+      }
+      .Header_headerContainer, .Index_container, .Header_headerBottom, {
+        width: inherit;
+      } 
+      .Header_headerBottomContainer {
+        margin: auto;
+        position: relative;
+        display: inline-block;
+      } 
+      .Header_headerNavbar {
+        width: 100%;
+        margin-top: 10px;
+        padding: 0px 10px 0px 10px;
+        overflow: hidden;
+      } 
+      .Header_headerNav {
+        width: 100%;
+        margin: auto;
+        font-size: 12px;
+        text-align: right;
+        overflow: hidden;
+      } 
+        .Banner_bannerContainer { 
+            width: 100%;
+            height: 150px; /*top banner hight*/
+        }    
+        .Banner_bannerTitle {
+            font-family: Ubuntu medium;
+            width: 120px;
+            height: 19px;
+            text-align: left;
+            align-content: flex-start;
+            font-size: 25px;
+        }  
+        .TopLogo {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            align-content: flex-start;
+            padding: 0px 0px 0px 0px;
+        }
+        .Index_messagesDesktop_pvd {
+          height: 100px;
+        }
+        .txtContainer {
+          background-color: #fff;
+          min-height: 50px; 
+          width: 100%; 
+          padding-top: 1%; 
+          padding-bottom: 1%;
+        }
+        .txtBoxStp2 {
+            background-color: #fff;
+
+            padding-top: 20px;
+            padding-bottom: 5px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 239px;
+        }
+        #capsTXT1, #capsTXT2 {
+            font-size: 12px;
+        }
+        .innerTxtStp2 {
+            background-color: #fff; 
+            width: 90%;
+            overflow: auto;
+        }
+        .innerTxtStp2 p {
+          background-color: #fff;
+          padding-left: 5px;
+          padding-right: 5px;
+          font-size: 13px;
+        }
+        .WelcomeBIDMC {
+            background-color: #ffffff;
+            padding: 10px 7px 0px 7px;
+            width: 100%;
+            height: auto;
+            text-align: center;
+            font-family: Roboto Medium;
+            font-size: 28px;
+            color: #1758B9;
+        }
+        .centerText {
+            text-align: center;
+            padding: 0px 10px 1rem 10px;
+            font-family: Roboto Light;
+            font-size: 16px;
+            margin-bottom: 0%;
+            background-color: #fff;
+
+        }
+        .dateDiv {
+
+            width: 80%; 
+            height: 10px;
+            display: inline-block; 
+            flex-wrap: wrap;
+
+        }
+        .txtDob {
+            /*background: url(./calendar.svg) no-repeat scroll right;*/
+            padding-right: 8px;
+            align-content: center;
+            width: 100%;
+            height: 36px;
+            border: 1px solid lightgray; 
+            border-radius: 5px; 
+            padding-left: 8px;
+        }
+
+        /*  Hover effect for buttons  */
+        .btn.btn-primary#lbtnStep1 {
+            margin: auto;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: #CACED2;
+            color: #504F4F;
+            width: 80%;
+            height: 40px;
+            font-family: Roboto;
+            font-size: 18px;    
+        }
+        .btn.btn-primary#lbtnStep1:hover {
+            background-color: #F57530;
+            color: #fff;
+        }
+        .btn.btn-primary#lbtnStep2 {
+            background-color: #CACED2;
+            color: #504F4F;
+            width: 294px;
+            height: 40px;
+            font-family: Roboto;
+            font-size: 18px;    
+        }
+        .btn.btn-primary#lbtnStep2:hover {
+            background-color: #F57530;
+            color: #fff;
+        }
+        .btn.btn-primary#lbtnStep3 {
+            background-color: #CACED2;
+            position: absolute;
+            top: 240%;
+            left: 10%;
+            color: #504F4F;
+            width: 294px;
+            height: 40px;
+            font-family: Roboto;
+            font-size: 18px;    
+        }
+        .btn.btn-primary#lbtnStep3:hover {
+            background-color: #F57530;
+            color: #fff;
+        }
+        .sendBtn {
+            width: 30%;
+            height: 47px;
+            background-color: #CACED2;
+            color: #504F4F;
+        }
+        .sendBtn:hover {
+            background-color: #F57530;
+            color: #fff;
+        }
+        .chatBtn {
+          position: absolute;
+          bottom: 0px;
+          color: #2C378C;
+          font-family: Roboto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-width: 1px 0px 1px 0px solid;
+          border-style: solid;
+          border-color: #E6E6E6;
+          width: 90%;
+          margin-left: 5%;
+          height: 47px;
+      }
+      .chatBtn:hover {
+          background-color: #F57530;
+          color: #fff;
+      }
+      .sendBtn {
+          width: 30%;
+          height: 47px;
+          background-color: #CACED2;
+          color: #504F4F;
+      }
+      .sendBtn:hover {
+          background-color: #F57530;
+          color: #fff;
+      }
+    /*^^^^^^^  Hover effect buttons ^^^^^*/
+
+
+        .calIcon {
+            padding: 1px;
+            align-content: center;
+            width: 24px;
+            height: 24px;
+        }
+        .getStartedtxt {
+            align-content: center;
+            width: inherit;
+        }
+        .getStartedtxt > p {
+            text-align: center;
+            font-family: Roboto, bold;
+            font-size: 16px;
+        }
+        .Header_headerNav p {
+           text-align: right;
+           color: #CACED2;
+           font-family: 'Roboto', sans-serif;
+           font-weight: 500;
+           font-style: normal;
+           font-size: 11px;
+           text-decoration: none;
+        }
+        .progBar {
+            width:100%;
+            height:80px;
+            padding: 0px 7px 3px 7px;
+        }
+
+    /*     Dropdown Menu Code     */
+
+      select {
+        float: left;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        text-indent: 15px;
+        text-overflow: '';
+        text-shadow: 0 0 0 #000;
+        width: 75px;
+        margin-top: 5px;
+        margin-left: 30px;
+        outline: 0px;
+        border: 0px;
+        font-size: 16px;
+        color: #2C378C;
+      }  
+      .icon {
+        min-width: 24px;
+        text-align: center;
+        display: inline-block;
+        height: 12px;
+        background-size: contain;
+        margin-top: 8px;
+
+      }
+      .icon.icon-chevronDown {
+        background-image: url(dropdownDisabled.svg);
+      }
+      .dropdown {
+        width: 100px;
+        text-align: right;
+        min-width: 130px;
+        float: right;
+        position: relative;
+        display: inline-block;
+      }
+      div.dropdown:hover .icon.icon-chevronDown { 
+        background-image: url(dropdown.svg); 
+      }
+      div.dropdown:hover .dropdown-content { 
+        color: #F7915A; 
+      }
+    /* ^^^^Dropdown Menu Code^^^^ */
+
+
+
+      /* This functions are for TeleHealthConsent2.htm */
+      .inputWrapper {
+        width: 100%;
+        height: 160px;
+        position: absolute;
+        top: 230%;
+        left: 0;
+        padding: 8px;
+        display: flex;
+        text-align: center;
+      }
+      /*This controls the inputbox position*/
+      #inputConsent2 {
+          width: 100%;
+          /*background-color: violet;*/
+          position: absolute;
+          top: 10%;
+          right: 0%;
+        }
+      .messageHeadLabel {
+        position: relative;
+        color: #4F4F4F;
+        font-family: Roboto;
+        font-size: 14px;
+        width: 100%;
+      }
+      .messageHeadLabel#hdlabelConsent2 {
+          position: absolute;
+          width: 70%;
+          top: 20%;
+          left: 12%;
+          text-align: left;
+      }
+      #txtPatientInput {
+        margin-top: 12%;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+        padding-left: 8px;
+        width: 294px; 
+        height: 36px;
+      }
+      /* Controls position of the BOTTON */
+      .btnWrapper{
+        position: absolute;
+        bottom:0%;
+        left: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      /* Functions for TeleHealthWaitingRoom.htm */
+      .waitingState {
+        width: 100%;
+        height: 70%;
+      }
+      .connectingState {
+        width: 100%;
+        height: 100%; 
+      }
+      .connectingState {
+        font-family: Roboto;
+        text-align: center;
+        padding: 10px 40px 0px 40px;
+      }
+      #lbtnStep3 {
+          background-color: #F57530;
+          color: #fff;
+          height: 46px;
+      }
+        .Index_container {
+          height: 550px;
+        }
+        .Banner_bannerWhiteContainer{
+            background-color: #fff;
+            width: 90%;
+            height: 390px;
+            margin: 10px 0px 0px 0px;
+        }
+      .chatBar {
+        position: absolute;
+        bottom: 90%;
+        font-family: Roboto Medium;
+        font-size: 14px;
+        color: #fff;
+        text-align: center;
+        padding: 2px 2px 2px 2px;
+        margin-top: 5%;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 22px;
+        background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+      }
+      .contentFooter {
+        background-color: #fff;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 15%;
+
+      }
+      .MSNfield {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        display: none;
+      }
+      .dateDiv > label {
+        bottom: 30%;
+        background-color: #fff;
+        width: 100%;
+        text-align: left;
+      }
+      .welcomeWrapperRight  {
+        background-color: #fff;
+        text-align: center;
+        height: 5%;
+      }
+      /* Division for Button Go to Consent */
+      .consentBtn {
+        position: relative;
+        height: 80px;
+        width: 100%; 
+      
+      }
+      .thksTXT {
+        align-content: center;
+        padding-left: 20px; 
+        padding-right: 20px; 
+        padding-top: 40px; 
+        padding-bottom: 5px; 
+        width: 100%;
+      }
+      .thksTXTcont > p {
+        width: 100%; 
+        height: auto; 
+        overflow: auto; 
+        text-align: center; 
+      }
+      .HeaderTxt {
+        font-family: Roboto;
+        font-size: 28px;
+      }
+      .subTitle {
+        font-family: Roboto light;
+        font-size: 16px;
+      }
+      .waitHeader {
+        margin: 15px 0px 5px 0px;
+        line-height: 14px;
+        text-align: center;
+        font-family: Roboto medium;
+        font-size: 14px;
+      }
+      .waitSubTitle {
+        margin: 0;
+        line-height: 16px;
+        text-align: center;
+        font-family: Roboto Black;
+        font-size: 16px;
+      }
+      .waitingWrapperLeft, .waitingWrapperRight {
+        margin: 0px;
+        font-family: Roboto;
+        text-align: center;
+        padding: 20px 15px 0px 15px;
+      }
+      .waitingWrapperLeft {
+
+      }
+      .waitingWrapperRight {
+        padding: 0px;
+      }
+      .connectingHeader {
+          font-family: Roboto medium;
+          margin: 0;
+          font-size: 14px;
+      }
+      .connectingSubTitle {
+          font-family: Roboto black;
+          font-size: 16px;
+      }
+      #txtIphone {
+        position: absolute;
+        right: 10%;
+        text-align: center;
+        width: 80%;
+      }
+      .counterLBL {
+        position: absolute;
+        top: 135%;
+        font-family: Roboto light;
+      }
+      .counter {
+        position: absolute;
+        top: 150%;
+        left: 25%;
+        font-family: Roboto Medium; 
+        font-size: 100px; 
+        color: #2C378C;  
+        margin: 0; 
+        line-height: 90px;
+      }
+      .seconds {
+        position: absolute;
+        top: 205%;
+        left: 40%;
+        font-family: Roboto Medium; 
+        font-size: 16px; 
+        padding-top: 0;
+      }
+      .btnCall {
+        padding-left: 2%; 
+        padding-right: 2%; 
+        padding-top: 5px; 
+        padding-bottom: 5px; 
+        width: 100%; 
+        display: flex; 
+        justify-content: center;
+      }
+      .chatInput {
+        height: 47px;
+        width: 68.7%;
+      }
+        .contentInput {
+        width: 85%; 
+        height: 50px;
+        display: flex; 
+        flex-wrap: wrap;
+      }
+      .inputBox {
+        width: 100%; 
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px; 
+      }
+      .boxContentsInput {
+        width: 100%;
+        height: 49px;
+      }
+
+}
+
+/*////////   iPhone 6/7/8 plus    ///////////*/
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3){
+  
+  html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Header_headerContainer, .Index_container, .Header_headerBottom, {
+    width: inherit;
+  } 
+  .Header_headerBottomContainer {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+  } 
+  .Header_headerNavbar {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    
+  } 
+  .Header_headerNav {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+    overflow: hidden;
+  } 
+    .Banner_bannerContainer { 
+        width: 100%;
+        height: 150px; /*top banner hight*/
+    }    
+    .Banner_bannerTitle {
+        font-family: Ubuntu medium;
+        width: 120px;
+        height: 19px;
+        text-align: left;
+        align-content: flex-start;
+        font-size: 25px;
+    }  
+    .TopLogo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        align-content: flex-start;
+        padding: 0px 0px 0px 0px;
+    }
+    .Index_messagesDesktop_pvd {
+      background-color: #fff;
+      height: 100px;
+    }
+    .txtContainer {
+      background-color: #fff;
+      height: 10px; 
+      width: 100%; 
+      padding-top: 1%; 
+      padding-bottom: 1%;
+    }
+    .txtBoxStp2 {
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 255px;
+    }
+    .innerTxtStp2 {
+        background-color: #fff; 
+        width: 80%;
+        overflow: auto;
+    }
+    .WelcomeBIDMC {
+        background-color: #ffffff;
+        padding: 10px 47px 0px 47px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-family: Roboto Medium;
+        font-size: 28px;
+        color: #1758B9;
+    }
+    .centerText {
+        text-align: center;
+        padding: 0px 40px 0px 40px;
+        font-family: Roboto Light;
+        font-size: 20px;
+        
+    }
+    .dateDiv {
+        
+        width: 80%; 
+        display: inline-block; 
+        flex-wrap: wrap;
+        
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        align-content: center;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+
+    /*  Hover effect for buttons  */
+    .btn.btn-primary#lbtnStep1 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .sendBtn {
+        width: 30%;
+        height: 47px;
+        background-color: #CACED2;
+        color: #504F4F;
+    }
+    .sendBtn:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .chatBtn {
+      position: absolute;
+      bottom: 0px;
+      color: #2C378C;
+      font-family: Roboto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-width: 1px 0px 1px 0px solid;
+      border-style: solid;
+      border-color: #E6E6E6;
+      width: 90%;
+      margin-left: 5%;
+      height: 47px;
+  }
+  .chatBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+/*^^^^^^^  Hover effect buttons ^^^^^*/
+  
+
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    .getStartedtxt {
+        align-content: center;
+        width: inherit;
+    }
+    .getStartedtxt > p {
+        text-align: center;
+        font-family: Roboto, bold;
+        font-size: 16px;
+    }
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        width:100%;
+        height:80px;
+        padding: 0px 10px 3px 10px;
+    }
+  
+/*     Dropdown Menu Code     */
+  
+  select {
+    float: left;
+    /*background-color: yellow;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 15px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    outline: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #2C378C;
+  }  
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px;
+    
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
+  }
+  .dropdown {
+    width: 100px;
+    text-align: right;
+    min-width: 130px;
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+/* ^^^^Dropdown Menu Code^^^^ */
+    
+    
+    
+  /* This functions are for TeleHealthConsent2.htm */
+  /*Container with all input elements*/
+  .inputWrapper {
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 375px;
+    left: 0;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+  /*This controls the inputbox position*/
+  #inputConsent2 {
+      width: 100%;
+      position: absolute;
+      top: 1%;
+      right: 0%;
+    }
+  .messageHeadLabel {
+    position: relative;
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 100%;
+  }
+  /*Label on top of the input*/
+  .messageHeadLabel#hdlabelConsent2 {
+      position: absolute;
+      width: 80%;
+      top: 10%;
+      left: 15%;
+      text-align: left;
+  }
+  #txtPatientInput {
+    margin-top: 12%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 294px; 
+    height: 36px;
+  }
+  /* Controls position of the BOTTON */
+  .btnWrapper{
+    position: absolute;
+    bottom:0%;
+    left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 70%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%; 
+  }
+  .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+    .Index_container {
+      height: 60px;
+    }
+    .Banner_bannerWhiteContainer{
+        background-color: #fff;
+        width: 90%;
+        height: 50px;
+        margin: 10px 0px 0px 0px;
+    }
+  .chatBar {
+    font-family: Roboto Medium;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 22px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+   
+  }
+  .MSNfield {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  .dateDiv > label {
+    width: 100%;
+    text-align: left;
+  }
+  .welcomeWrapperRight  {
+    text-align: center;
+  }
+  .consentBtn {
+    position: absolute;
+    left: 10%;
+    top: 490px; 
+    width: 80%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .thksTXT {
+    align-content: center;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 100%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: center; 
+  }
+  .HeaderTxt {
+    font-family: Roboto;
+    font-size: 28px;
+  }
+  .subTitle {
+    font-family: Roboto light;
+    font-size: 16px;
+  }
+  .waitHeader {
+    margin: 30px 0px 5px 0px;
+    line-height: 14px;
+    text-align: center;
+    font-family: Roboto medium;
+    font-size: 14px;
+  }
+  .waitSubTitle {
+    margin: 0;
+    line-height: 16px;
+    text-align: center;
+    font-family: Roboto Black;
+    font-size: 16px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight {
+    margin: 0px;
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  .waitingWrapperLeft {
+    
+  }
+  .waitingWrapperRight {
+    padding: 0px;
+  }
+  .connectingHeader {
+      font-family: Roboto medium;
+      margin: 0;
+      font-size: 14px;
+  }
+  .connectingSubTitle {
+      font-family: Roboto black;
+      font-size: 19px;
+  }
+  #txtIphone {
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    width: 80%;
+  }
+  .counterLBL {
+    font-family: Roboto light;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 100px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 90px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 16px; 
+    padding-top: 0;
+  }
+  .btnCall {
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .chatInput {
+    height: 47px;
+    width: 68.7%;
+  }
+    .contentInput {
+    width: 85%; 
+    height: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px; 
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
+  }
+    
+}
+
+/* /////////////Galaxy S8, S8+, S9, S9+, S10, S10+ ////////// */
+@media only screen 
+  and (min-device-width: 360px) 
+  and (max-device-width: 740px) {
+
+  html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Header_headerContainer, .Index_container, .Header_headerBottom, {
+    width: inherit;
+  } 
+  .Header_headerBottomContainer {
+    margin: auto;
+    position: relative;
+    display: inline-block;
+  } 
+  .Header_headerNavbar {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    
+  } 
+  .Header_headerNav {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+    overflow: hidden;
+  } 
+    .Banner_bannerContainer { 
+        width: 100%;
+        height: 150px; /*top banner hight*/
+    }    
+    .Banner_bannerTitle {
+        font-family: Ubuntu medium;
+        width: 120px;
+        height: 19px;
+        text-align: left;
+        align-content: flex-start;
+        font-size: 25px;
+    }  
+    .TopLogo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        align-content: flex-start;
+        padding: 0px 0px 0px 0px;
+    }
+    .Index_messagesDesktop_pvd {
+      background-color: #fff;
+      height: 100px;
+    }
+    .txtContainer {
+      background-color: #fff;
+      height: 10px; 
+      width: 100%; 
+      padding-top: 1%; 
+      padding-bottom: 1%;
+    }
+    .txtBoxStp2 {
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 390px;
+    }
+    .innerTxtStp2 {
+        background-color: #fff; 
+        width: 80%;
+        overflow: auto;
+    }
+    .WelcomeBIDMC {
+        background-color: #ffffff;
+        padding: 10px 47px 0px 47px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-family: Roboto Medium;
+        font-size: 28px;
+        color: #1758B9;
+    }
+    .centerText {
+        text-align: center;
+        padding: 0px 40px 0px 40px;
+        font-family: Roboto Light;
+        font-size: 20px;
+        
+    }
+    .dateDiv {
+        
+        width: 80%; 
+        display: inline-block; 
+        flex-wrap: wrap;
+        
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        align-content: center;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+
+    /*  Hover effect for buttons  */
+    .btn.btn-primary#lbtnStep1 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .sendBtn {
+        width: 30%;
+        height: 47px;
+        background-color: #CACED2;
+        color: #504F4F;
+    }
+    .sendBtn:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .chatBtn {
+      position: absolute;
+      bottom: 0px;
+      color: #2C378C;
+      font-family: Roboto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-width: 1px 0px 1px 0px solid;
+      border-style: solid;
+      border-color: #E6E6E6;
+      width: 90%;
+      margin-left: 5%;
+      height: 47px;
+  }
+  .chatBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+/*^^^^^^^  Hover effect buttons ^^^^^*/
+  
+
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    .getStartedtxt {
+        align-content: center;
+        width: inherit;
+    }
+    .getStartedtxt > p {
+        text-align: center;
+        font-family: Roboto, bold;
+        font-size: 16px;
+    }
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        width:100%;
+        height:80px;
+        padding: 0px 10px 3px 10px;
+    }
+  
+/*     Dropdown Menu Code     */
+  
+  select {
+    float: left;
+    /*background-color: yellow;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 15px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    outline: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #2C378C;
+  }  
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px;
+    
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
+  }
+  .dropdown {
+    width: 100px;
+    text-align: right;
+    min-width: 130px;
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+/* ^^^^Dropdown Menu Code^^^^ */
+    
+    
+    
+  /* This functions are for TeleHealthConsent2.htm */
+  /*Container with all input elements*/
+  .inputWrapper {
+    width: 100%;
+    height: 80px;
+    position: absolute;
+    top: 475px;
+    left: 0;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+  /*This controls the inputbox position*/
+  #inputConsent2 {
+      width: 100%;
+      position: absolute;
+      top: 40%;
+      right: 0%;
+    }
+  .messageHeadLabel {
+    position: relative;
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 100%;
+  }
+  /*Label on top of the input*/
+  .messageHeadLabel#hdlabelConsent2 {
+      position: absolute;
+      width: 80%;
+      top: 70%;
+      left: 15%;
+      text-align: left;
+  }
+  #txtPatientInput {
+    margin-top: 12%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 294px; 
+    height: 36px;
+  }
+  /* Controls position of the BOTTON */
+  .btnWrapper{
+    position: relative;
+    top: 190%;
+    left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 70%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%; 
+  }
+  .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+    .Index_container {
+      height: 760px;
+    }
+    .Banner_bannerWhiteContainer{
+        background-color: #fff;
+        width: 90%;
+        height: 600px;
+        margin: 10px 0px 0px 0px;
+    }
+  .chatBar {
+    font-family: Roboto Medium;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 22px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+   
+  }
+  .MSNfield {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  .dateDiv > label {
+    width: 100%;
+    text-align: left;
+  }
+  .welcomeWrapperRight  {
+    text-align: center;
+  }
+  .consentBtn {
+    position: absolute;
+    left: 10%;
+    top: 490px; 
+    width: 80%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .thksTXT {
+    align-content: center;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 100%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: center; 
+  }
+  .HeaderTxt {
+    font-family: Roboto;
+    font-size: 28px;
+  }
+  .subTitle {
+    font-family: Roboto light;
+    font-size: 16px;
+  }
+  .waitHeader {
+    margin: 30px 0px 5px 0px;
+    line-height: 14px;
+    text-align: center;
+    font-family: Roboto medium;
+    font-size: 14px;
+  }
+  .waitSubTitle {
+    margin: 0;
+    line-height: 16px;
+    text-align: center;
+    font-family: Roboto Black;
+    font-size: 16px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight {
+    margin: 0px;
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  .waitingWrapperLeft {
+    
+  }
+  .waitingWrapperRight {
+    padding: 0px;
+  }
+  .connectingHeader {
+      font-family: Roboto medium;
+      margin: 0;
+      font-size: 14px;
+  }
+  .connectingSubTitle {
+      font-family: Roboto black;
+      font-size: 19px;
+  }
+  #txtIphone {
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    width: 80%;
+  }
+  .counterLBL {
+    font-family: Roboto light;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 100px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 90px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 16px; 
+    padding-top: 0;
+  }
+  .btnCall {
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .chatInput {
+    height: 47px;
+    width: 68.7%;
+  }
+    .contentInput {
+    width: 85%; 
+    height: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px; 
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
+  }
+
+}
+
+/* /////////////// Tablet Resolution ///////////////////// */
+
+@media screen and (max-width: 768px) and (min-width: 601px) {
+  
+  html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Header_headerBottomContainer {
+    margin: auto;
+  }
+  .Header_headerBottom {
+    
+  }
+  .Header_headerNavbar {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    
+  }
+  .Header_headerNav {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 10px;
+    overflow: hidden;
+  }
+    .Banner_bannerContainer {
+        background-color: #fff;
+        width: 100%;
+        height: 150px; /*top banner hight*/
+    }
+    
+    .Banner_bannerTitle {
+        position: absolute;
+        width: 120px;
+        height: 19px;
+        text-align: left;
+        align-content: flex-start;
+        top: 15%;
+        font-size: 46px;
+    }
+    
+  .Banner_bannerTitleContainer {
+        font-family: ubuntu medium;
+        position: relative;
+  }
+    .TopLogo {
+        padding-right: 50px;
+        padding-top: 10px;
+        width: inherit;
+        height: 115px;
+        
+    }
+    .Index_container {
+      height: 915px;
+    }
+    .Banner_bannerWhiteContainer {
+        position: relative;
+        background-color: #fff;
+        width: 90%;
+        height: 780px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    .Index_messagesDesktop_pvd {
+      background-color: #fff;
+      height: 50px;
+    }
+    .txtContainer {
+      background-color: #fff;
+      min-height: 700px; 
+      width: 100%; 
+      padding-top: 1%; 
+      padding-bottom: 1%;
+    }
+    .txtBoxStp2 {
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 550px;
+    }
+    .innerTxtStp2 {
+        background-color: #fff; 
+        width: 80%;
+        overflow: auto;
+    }
+    .WelcomeBIDMC {
+        margin-left: 15%;
+        padding: 30px 7px 0px 7px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-family: Roboto Medium;
+        font-size: 35px;
+        color: #1758B9;
+    }
+    .centerText {
+        margin-left: 18%;
+        text-align: left;
+        padding: 40px 7px 0px 10px;
+        font-family: Roboto Light;
+        font-size: 20px;
+        
+    }
+
+  
+/*  =========Hover effect for buttons======  */
+    .btn.btn-primary#lbtnStep1 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+  
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .chatBtn {
+    position: absolute;
+    bottom: 54px;
+    color: #2C378C;
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-width: 1px 0px 1px 0px solid;
+    border-style: solid;
+    border-color: #E6E6E6;
+    width: 90%;
+    margin-left: 5%;
+    height: 47px;
+  }
+  .chatBtn:hover {
+    background-color: #F57530;
+    color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+/*^^^^^^^  Hover effect buttons ^^^^^*/
+
+
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        float: right;
+        width:60%;
+        height: 80px;
+        padding: 0px 10px 3px 10px;
+        
+    }
+  
+  
+/*     Dropdown Menu Code     */
+  
+  select {
+    float: left;
+    /*background-color: yellow;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 15px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    outline: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #2C378C;
+  }
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px;
+    
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
+  }
+  .dropdown {
+    width: 100px;
+    text-align: right;
+    min-width: 130px;
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+/* ^^^^Dropdown Menu Code^^^^ */
+       
+/* This functions are for TeleHealthConsent.htm */
+  .inputWrapper {
+    width: 100%;
+    height: 180px;
+    position: absolute;
+    top: 70%;
+    left: 0;
+    background-color: #fff;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+/* controls inputbox position */
+  #inputConsent2 {
+      width: 100%;
+      position: absolute;
+      top: 30%;
+      left: 0%;
+      display: flex;
+      justify-content: center;
+  }
+  .messageHeadLabel {
+      width: 100%;
+      position: absolute;
+      top: 10%;  
+      text-align: left;
+      color: #4F4F4F;
+      font-family: Roboto;
+      font-size: 16px;
+  }
+  /* Controls Label on top of inputbox position */
+  .messageHeadLabel#hdlabelConsent2 {
+      width: 50%;
+      left: 24%;
+      top: 30%;
+      margin-bottom: 10%;
+  }
+      .getStartedtxt {
+        margin-top: 8px;
+        padding-bottom: 0px;
+        text-align: left;
+        align-content: flex-start;
+        width: 100%;
+    }
+    .getStartedtxt > p {
+        text-align: left;
+        padding: auto;
+        margin-bottom: 15%;
+        margin-left: 0%;
+        font-family: Roboto, bold;
+        font-size: 16px;
+    }
+    .dateDiv {
+        width: 80%; 
+        display: inline-block; 
+        flex-wrap: wrap;
+        
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        align-content: left;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+ 
+  #txtPatientInput {
+    margin-top: 3%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 360px; 
+    height: 36px;
+  }
+  
+  .btnWrapper{
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 100%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .contText, .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+  .chatBar {
+    position: absolute;
+    bottom: 255px;
+    font-family: Roboto Medium;
+    font-size: 16px;
+    color: #fff;
+    vertical-align: middle;
+    text-align: center;
+    padding: 8px;
+    margin-top: 0%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+   
+  }
+
+  .MSNfield {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  
+  .dateDiv > label {
+    width: 100%;
+    text-align: left;
+  }
+  .welcomeWrapperRight  {
+    position: absolute;
+    right: 5%;
+    top: 15%;
+    width: 35%;
+    height: 50%;
+    float: right;
+    text-align: left;
+  }
+  .welcomeWrapperLeft  {
+    float: left;
+    width: 52%;
+  }
+  .consentBtn {
+    width: 100%;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+  }
+  .thksTXT {
+    padding-left: 20px; 
+    padding-right: 2%; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 80%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: left;
+    font-family: Roboto; 
+    
+  }
+  .HeaderTxt {
+    font-size: 35px;
+  }
+  .subTitle {
+    font-size: 20px;
+  }
+  .waitHeader {
+    margin: 8% 0% 0% 9%;
+    text-align: left;
+    font-family: Roboto Medium;
+    font-size: 35px;
+  }
+  .waitSubTitle {
+    margin: 5% 0% 0% 9%;
+    text-align: left;
+    font-family: Roboto Black;
+    font-size: 20px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight > p {
+    padding-top: 40px;    
+    font-family: Roboto light;
+    font-size: 20px;
+    text-align: left;
+   
+  }
+  .waitingWrapperLeft {
+    padding-right: 0px;
+    margin-left: 3%;
+    width: 44%;
+    float: left;
+  
+  }
+  .waitingWrapperRight {
+    margin-right: 8%;
+    padding-left: 10px;
+    width: 32%;
+    float: right;
+    padding: 0px;
+  }
+  .connectingHeader {
+    line-height: 35px;
+    text-align: left;
+    font-family: Roboto Medium;
+    font-size: 35px;
+  }
+  .connectingSubTitle {
+      line-height: 20px;
+      text-align: left;
+      font-family: Roboto Black;
+      font-size: 20px;
+  }
+    #txtIphone {
+    position: absolute;
+    right: 10%;
+    text-align: left;
+    width: 40%;
+  }
+  .counterLBL {
+    margin-top: 13%;
+    font-family: Roboto light;
+    font-size: 20px;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 180px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 120px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 20px; 
+    padding-top: 10;
+  }
+  .bntCall {
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%;
+    height: 60px;
+    display: flex; 
+    justify-content: center;
+  }
+  .chatInput {
+    margin-left: 5%;
+    height: 47px;
+    width: 60%;
+  }
+  .contentInput {
+    width: 100%; 
+    height: 50px;
+    text-align: left;
+    margin: 0px 20% 0px 20%;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px; 
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
+  }
+}
+/*    ////////////////    */
+
+/*////////  desktop   ///////////*/
+@media screen and (min-width: 769px) {
+ 
+  html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  /* Header margins live here*/
+  .Header_headerBottomContainer {
+    width: 100%;
+    position: absolute;
+    left: 0px;
+  } 
+  .Header_headerNavbar {
+    width: 100%;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+    
+  }
+  .Header_headerNav {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #4F4F4F;
+    font-size: 16px;
+    text-align: right;
+    overflow: hidden;
+  } 
+    .Banner_bannerContainer {
+        width: 100%;
+        height: 231px; /*top banner hight*/
+    }    
+    .Banner_bannerTitle {
+        position: absolute;
+        width: 120px;
+        height: 19px;
+        text-align: left;
+        align-content: flex-start;
+        top: 15%;
+        font-size: 46px;
+    }  
+    .Banner_bannerTitleContainer {
+          font-family: Ubuntu medium;
+          position: relative;
+    }   
+    .logoContainer {
+      padding: 100px;
+      position: absolute;
+      left:100%;
+    }
+    .TopLogo {
+        margin: 0;
+        width: inherit;
+        height: 115px;
+        
+    }
+    .Index_container {
+      height: 850px;
+      width: inherit;
+      padding-bottom: 0px;
+    }   
+    .Index_container#consent2 {
+      height: 1287px;
+    }
+    .Banner_bannerWhiteContainer {
+        position: relative;
+        background-color: #fff;
+        width: 90%;
+        height: 745px;
+        margin: 10px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }       
+    .Banner_bannerWhiteContainer#whiteContainerConsent2 {
+        height: 1175px;
+        
+    }
+    .txtContainer{
+      background-color: #fff;
+      height: 950px;
+    }
+    .WelcomeBIDMC {
+        background-color: #fff;
+        padding: 30px 7px 0px 7px;
+        width: 100%;
+        height: 70px;
+        text-align: left;
+        font-family: Roboto Medium;
+        font-size: 35px;
+        color: #1758B9;
+    }
+    .centerText {
+        text-align: left;
+        padding: 40px 7px 0px 10px;
+        font-family: Roboto Light;
+        font-size: 20px;     
+    }
+  /* Controls Label on top of inputbox position */
+    .messageHeadLabel > div {
+      width: 360px;
+      position: absolute;
+      top: 0%;
+      padding-top: 0px;
+      text-align: left;
+      color: #4F4F4F;
+      font-family: Roboto;
+      font-size: 16px;
+    }
+    .dateDiv {
+      position: absolute;
+      top: 33%;
+      width: 80%; 
+      align-content: flex-start;
+      text-align: left;      
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        text-align: left;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+  
+  /* hover effect for bottons  */
+    .btn.btn-primary#lbtnStep1 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+  
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 360px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .chatBtn {
+      position: absolute;
+      bottom: 0px;
+      color: #2C378C;
+      font-family: Roboto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-width: 1px 0px 1px 0px solid;
+      border-style: solid;
+      border-color: #E6E6E6;
+      width: 100%;
+      height: 47px;
+  }
+  .chatBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  } 
+/*^^^^^ Hover effects on bottons ^^^^^^*/
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    .getStartedtxt {
+        text-align: left;
+        width: 100%;
+    }
+    .getStartedtxt > p {
+        text-align: left;
+        padding: 60px 0px 0px 0px;
+        font-family: Roboto, bold;
+        font-size: 20px;
+    }
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        float: right;
+        width:50%;
+        height: 90px;  
+    }
+/*     Dropdown Menu Code     */
+  
+  select {
+    float: left;
+    /*background-color: yellow;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 10px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    outline: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #2C378C;
+  }
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px; 
+   
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
+  }
+  .dropdown {
+    width: 100px;
+    text-align: right;
+    min-width: 130px;
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+/* ^^^^Dropdown Menu Code^^^^ */
+    
+    
+/* This functions are for TeleHealthConsent2.htm */
+    .inputWrapper {
+      position: relative;
+      width: 100%;
+      text-align: center;
+      height: 150px;
+    }
+    /* controls inputbox position */
+    #inputConsent2 {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      bottom: 55%;
+      display: flex;
+      justify-content: center;
+    }
+    #txtPatientInput {
+      position: absolute;
+      border: 1px solid lightgray;
+      border-radius: 5px;
+      padding-left: 8px;
+      width: 360px; 
+      height: 36px;
+    }
+  /*controls positon for BOTTON*/
+  .btnWrapper{
+    position: absolute;
+    bottom: 0%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 90%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .contText, .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+  .chatBar {
+    position: absolute;
+    bottom: 230px;
+    font-family: Roboto Medium;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: absolute;
+    bottom: 0;
+    background-color: #fff;
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    margin-right: 5%;  
+  }
+  .MSNfield {
+    position: absolute;
+    background-color: #fff;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  .welcomeWrapperRight  {
+    position: absolute;
+    width: 40%;
+    right: 10%;
+    top: 8%;
+    height: 50%;
+    float: right;
+    text-align: center;
+  }
+  .welcomeWrapperLeft  {
+    position: absolute;
+    left: 10%;
+    text-align: center;
+    float: left;
+    width: 30%;
+  }
+  .consentBtn {
+    position: absolute;
+    top: 60%;
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .thksTXT {
+    padding-left: 20px; 
+    padding-right: 2%; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 80%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: left;
+    font-family: Roboto; 
+    
+  }
+  .HeaderTxt {
+    font-size: 35px;
+  }
+  .subTitle {
+    font-size: 20px;
+  }
+  .waitHeader {
+    margin: 7.8% 0px 0px 8.5%;
+    line-height: 35px;
+    text-align: left;
+    font-family: Roboto Medium;
+    font-size: 35px;
+  }
+  .waitSubTitle {
+    margin-left: 8.4%;
+    line-height: 20px;
+    text-align: left;
+    font-family: Roboto Black;
+    font-size: 20px;
+    padding-top: 20px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight > p {
+    padding-top: 40px;
+    margin: 0px;
+    font-family: Roboto light;
+    font-size: 20px;
+    text-align: left;
+   
+  }
+  .waitingWrapperLeft {
+    margin-left: 8%;
+    width: 35%;
+    float: left;
+  
+  }
+  .waitingWrapperRight {
+    margin-right: 8%;
+    width: 35%;
+    float: right;
+    padding: 0px;
+  }
+  .connectingHeader {
+    line-height: 35px;
+    text-align: left;
+    font-family: Roboto Medium;
+    font-size: 35px;
+  }
+  .connectingSubTitle {
+      line-height: 20px;
+      text-align: left;
+      font-family: Roboto black;
+      font-size: 20px;
+  }
+  .counterLBL {
+    margin-top: 7%;
+    font-family: Roboto light;
+    font-size: 20px;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 180px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 120px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 20px; 
+    padding-top: 10;
+  }
+  .btnCall {
+    position: absolute;
+    left: 0;
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%;
+    height: 60px;
+    bottom: 280px;
+    display: flex; 
+    justify-content: center;
+  }
+  .chatInput {
+    /*margin-left: 5%;*/
+    height: 47px;
+    width: 69.5%;
+  }
+  .contentInput {
+    width: 38%; 
+    height: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px;
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
+    
+  }
+}
+/*    ////////////////    */
+
+
+/* /////////////// Small Browser Resolution /////////////////// */
+@media screen and (max-width: 768px) and (min-width: 499px) {
+    html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Header_headerContainer, .Index_container, .Header_headerBottom, {
+    width: inherit;
+  } 
+  .Header_headerBottomContainer {
+    margin: auto;
+
+  } 
+  .Header_headerNavbar {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+  } 
+  .Header_headerNav {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+    overflow: hidden;
+  }
+
+    .Banner_bannerContainer { 
+        width: 100%;
+        height: 150px; /*top banner hight*/
+    }    
+    .Banner_bannerTitle {
+        font-family: Ubuntu medium;
+        width: 120px;
+        height: 19px;
+        text-align: left;
+        align-content: flex-start;
+        font-size: 25px;
+    }  
+    .TopLogo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        align-content: flex-start;
+        padding: 0px 0px 0px 0px;
+    }
+    .Index_messagesDesktop_pvd {
+      background-color: #fff;
+      height: 100px;
+    }
+    .txtContainer {
+      background-color: #fff;
+      min-height: 500px; 
+      width: 100%; 
+      padding-top: 1%; 
+      padding-bottom: 1%;
+    }
+    .txtBoxStp2 {
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+    }
+    .innerTxtStp2 {
+        background-color: #fff; 
+        width: 80%;
+        overflow: auto;
+    }
+    .WelcomeBIDMC {
+        background-color: #ffffff;
+        padding: 10px 47px 0px 47px;
+        width: 100%;
+        height: 70px;
+        text-align: center;
+        font-family: Roboto Medium;
+        font-size: 28px;
+        color: #1758B9;
+    }
+    .centerText {
+        text-align: center;
+        padding: 0px 40px 0px 40px;
+        font-family: Roboto Light;
+        font-size: 20px;   
+    }
+    .dateDiv {
+        width: 80%; 
+        display: inline-block; 
+        flex-wrap: wrap; 
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        align-content: center;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+
+    /*  Hover effect for buttons  */
+    .btn.btn-primary#lbtnStep1 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .sendBtn {
+        width: 30%;
+        height: 47px;
+        background-color: #CACED2;
+        color: #504F4F;
+    }
+    .sendBtn:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .chatBtn {
+      position: absolute;
+      bottom: 0px;
+      color: #2C378C;
+      font-family: Roboto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-width: 1px 0px 1px 0px solid;
+      border-style: solid;
+      border-color: #E6E6E6;
+      width: 90%;
+      margin-left: 5%;
+      height: 47px;
+  }
+  .chatBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+/*^^^^^^^  Hover effect buttons ^^^^^*/
+  
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    .getStartedtxt {
+        align-content: center;
+        width: inherit;
+    }
+    .getStartedtxt > p {
+        text-align: center;
+        font-family: Roboto, bold;
+        font-size: 16px;
+    }
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        width:100%;
+        height: 90px;
+        padding: 0px 10px 3px 10px;
+    }
+  
+/*     Dropdown Menu Code     */
+  
+  select {
+    float: left;
+    /*background-color: yellow;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 15px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    outline: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #2C378C;
+  }  
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px;
+    
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
+  }
+  .dropdown {
+    width: 100px;
+    text-align: right;
+    min-width: 130px;
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+/* ^^^^Dropdown Menu Code^^^^ */
+     
+  /* This functions are for TeleHealthConsent2.htm */
+  .inputWrapper {
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+  /*This controls the inputbox position*/
+  #inputConsent2 {
+      width: 100%;
+      /*background-color: violet;*/
+      position: absolute;
+      top: 10%;
+      right: 0%;
+    }
+  .messageHeadLabel {
+    position: relative;
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 100%;
+  }
+  .messageHeadLabel#hdlabelConsent2 {
+      position: absolute;
+      width: 70%;
+      top: 0%;
+      left: 15%;
+      text-align: left;
+  }
+  #txtPatientInput {
+    margin-top: 12%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 294px; 
+    height: 36px;
+  }
+  /* Controls position of the BOTTON */
+  .btnWrapper{
+    position: absolute;
+    bottom:0%;
+    left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 70%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%; 
+  }
+  .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+    .Index_container {
+      height: 650px;
+    }
+    .Banner_bannerWhiteContainer{
+        background-color: #fff;
+        width: 90%;
+        height: 500px;
+        margin: 10px 0px 0px 0px;
+    }
+  .chatBar {
+    font-family: Roboto Medium;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 22px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+   
+  }
+  .MSNfield {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  .dateDiv > label {
+    width: 100%;
+    text-align: left;
+  }
+  .welcomeWrapperRight  {
+    text-align: center;
+  }
+  .consentBtn {
+    position: absolute;
+    left: 10%;
+    top: 490px; 
+    width: 80%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .thksTXT {
+    align-content: center;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 100%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: center; 
+  }
+  .HeaderTxt {
+    font-family: Roboto;
+    font-size: 28px;
+  }
+  .subTitle {
+    font-family: Roboto light;
+    font-size: 16px;
+  }
+  .waitHeader {
+    margin: 30px 0px 5px 0px;
+    line-height: 14px;
+    text-align: center;
+    font-family: Roboto medium;
+    font-size: 14px;
+  }
+  .waitSubTitle {
+    margin: 0;
+    line-height: 16px;
+    text-align: center;
+    font-family: Roboto Black;
+    font-size: 16px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight {
+    margin: 0px;
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  .waitingWrapperLeft {
+    
+  }
+  .waitingWrapperRight {
+    padding: 0px;
+  }
+  .connectingHeader {
+      font-family: Roboto medium;
+      margin: 0;
+      font-size: 14px;
+  }
+  .connectingSubTitle {
+      font-family: Roboto black;
+      font-size: 19px;
+  }
+  #txtIphone {
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    width: 80%;
+  }
+  .counterLBL {
+    font-family: Roboto light;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 100px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 90px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 16px; 
+    padding-top: 0;
+  }
+  .btnCall {
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .chatInput {
+    height: 47px;
+    width: 68.7%;
+  }
+    .contentInput {
+    width: 85%; 
+    height: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px; 
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
+  }
+    
+} 
+/*    ////////////////    */
+
+
+
+/* /////////////// Small Browser Resolution /////////////////// */
+@media (min-width: 801px) and (max-width: 1024px) 
+  {
+    html, body, form {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Header_headerContainer, .Index_container, .Header_headerBottom, {
+    width: inherit;
+  } 
+  .Header_headerBottomContainer {
+    margin: auto;
+
+  } 
+  .Header_headerNavbar {
+    width: 100%;
+    margin-top: 10px;
+    padding: 0px 10px 0px 10px;
+    overflow: hidden;
+  } 
+  .Header_headerNav {
+    width: 100%;
+    margin: auto;
+    font-size: 12px;
+    text-align: right;
+    overflow: hidden;
+  }
+
+    .Banner_bannerContainer { 
+        width: 100%;
+        height: 150px; /*top banner hight*/
+    }    
+    .Banner_bannerTitle {
+        font-family: Ubuntu medium;
+        width: 100%;
+        height: 100%;
+        text-align: left;
+        align-content: flex-start;
+        font-size: 48px;
+    }  
+    .TopLogo {
+        width: 100%;
+        height: auto;
+        margin: 0;
+        align-content: flex-start;
+        padding: 0px 0px 0px 0px;
+    }
+    .Index_messagesDesktop_pvd {
+      background-color: #fff;
+      height: 100px;
+    }
+    .txtContainer {
+      background-color: #fff;
+      min-height: 500px; 
+      width: 100%; 
+      padding-top: 1%; 
+      padding-bottom: 1%;
+    }
+    .txtBoxStp2 {
+        background-color: #fff;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 350px;
+    }
+    .innerTxtStp2 {
+        background-color: #fff; 
+        width: 80%;
+        overflow: auto;
+    }
+    
+    .WelcomeBIDMC {
+        background-color: #ffffff;
+        margin-left: 27%;
+        margin-top: 10%;
+        width: 500px;
+        height: 70px;
+        text-align: left;
+        font-family: Roboto Medium;
+        font-size: 38px;
+        color: #1758B9;
+    }
+    .centerText {
+        text-align: left;
+        margin-top: 5%;
+        padding: 60px 30px 0px 40px;
+        font-family: Roboto Light;
+        font-size: 20px;   
+    }
+    .dateDiv {
+        width: 90%; 
+        display: inline-block; 
+        flex-wrap: wrap; 
+    }
+    .txtDob {
+        /*background: url(./calendar.svg) no-repeat scroll right;*/
+        padding-right: 8px;
+        align-content: flex-start;
+        width: 100%;
+        height: 36px;
+        border: 1px solid lightgray; 
+        border-radius: 5px; 
+        padding-left: 8px;
+    }
+
+    /*  Hover effect for buttons  */
+    .btn.btn-primary#lbtnStep1 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep1:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep2 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 40px;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep2:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .btn.btn-primary#lbtnStep3 {
+        background-color: #CACED2;
+        color: #504F4F;
+        width: 294px;
+        height: 100%;
+        font-family: Roboto;
+        font-size: 18px;    
+    }
+    .btn.btn-primary#lbtnStep3:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .sendBtn {
+        width: 30%;
+        height: 47px;
+        background-color: #CACED2;
+        color: #504F4F;
+    }
+    .sendBtn:hover {
+        background-color: #F57530;
+        color: #fff;
+    }
+    .chatBtn {
+      position: absolute;
+      bottom: 0px;
+      color: #2C378C;
+      font-family: Roboto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-width: 1px 0px 1px 0px solid;
+      border-style: solid;
+      border-color: #E6E6E6;
+      width: 90%;
+      margin-left: 5%;
+      height: 47px;
+  }
+  .chatBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+  .sendBtn {
+      width: 30%;
+      height: 47px;
+      background-color: #CACED2;
+      color: #504F4F;
+  }
+  .sendBtn:hover {
+      background-color: #F57530;
+      color: #fff;
+  }
+/*^^^^^^^  Hover effect buttons ^^^^^*/
+  
+    .calIcon {
+        padding: 1px;
+        align-content: center;
+        width: 24px;
+        height: 24px;
+    }
+    .getStartedtxt {
+        align-content: flex-start;
+        width: 90%
+    }
+    .getStartedtxt > p {
+        text-align: left;
+        font-family: Roboto, bold;
+        font-size: 16px;
+    }
+    .Header_headerNav p {
+       text-align: right;
+       color: #CACED2;
+       font-family: 'Roboto', sans-serif;
+       font-weight: 500;
+       font-style: normal;
+       font-size: 11px;
+       text-decoration: none;
+    }
+    .progBar {
+        width:60%;
+        height: 90px;
+        padding: 0px 10px 3px 10px;
+    }
+  
+/*     Dropdown Menu Code     */
+  
+  select {
+    float: left;
+    /*background-color: yellow;*/
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 15px;
+    text-overflow: '';
+    text-shadow: 0 0 0 #000;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 30px;
+    outline: 0px;
+    border: 0px;
+    font-size: 16px;
+    color: #2C378C;
+  }  
+  .icon {
+    min-width: 24px;
+    text-align: center;
+    display: inline-block;
+    height: 12px;
+    background-size: contain;
+    margin-top: 8px;
+    
+  }
+  .icon.icon-chevronDown {
+    background-image: url(dropdownDisabled.svg);
+  }
+  .dropdown {
+    width: 100px;
+    text-align: right;
+    min-width: 130px;
+    float: right;
+    position: relative;
+    display: inline-block;
+  }
+  div.dropdown:hover .icon.icon-chevronDown { 
+    background-image: url(dropdown.svg); 
+  }
+  div.dropdown:hover .dropdown-content { 
+    color: #F7915A; 
+  }
+/* ^^^^Dropdown Menu Code^^^^ */
+     
+  /* This functions are for TeleHealthConsent2.htm */
+  .inputWrapper {
+    width: 100%;
+    height: 160px;
+    position: absolute;
+    top: 450px;
+    left: 0;
+    padding: 8px;
+    display: flex;
+    text-align: center;
+  }
+  /*This controls the inputbox position*/
+  #inputConsent2 {
+      width: 100%;
+      /*background-color: violet;*/
+      position: absolute;
+      top: 10%;
+      right: 0%;
+    }
+  .messageHeadLabel {
+    position: relative;
+    color: #4F4F4F;
+    font-family: Roboto;
+    font-size: 14px;
+    width: 100%;
+  }
+  .messageHeadLabel#hdlabelConsent2 {
+      position: absolute;
+      width: 70%;
+      top: 0%;
+      left: 15%;
+      text-align: left;
+  }
+  #txtPatientInput {
+    margin-top: 12%;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding-left: 8px;
+    width: 294px; 
+    height: 36px;
+  }
+  /* Controls position of the BOTTON */
+  .btnWrapper{
+    position: absolute;
+    bottom:0%;
+    left: 0;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Functions for TeleHealthWaitingRoom.htm */
+  .waitingState {
+    width: 100%;
+    height: 70%;
+  }
+  .connectingState {
+    width: 100%;
+    height: 100%; 
+  }
+  .connectingState {
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  #lbtnStep3 {
+      background-color: #F57530;
+      color: #fff;
+      height: 46px;
+  }
+    .Index_container {
+      height: 100%;
+    }
+    .Banner_bannerWhiteContainer{
+        background-color: #fff;
+        width: 90%;
+        height: 500%;
+        margin: 10px 0px 0px 0px;
+    }
+  .chatBar {
+    font-family: Roboto Medium;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    padding: 2px 2px 2px 2px;
+    margin-top: 10%;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 22px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#1c9bd7), to(#283891));
+  }
+  .contentFooter {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 25%;
+   
+  }
+  .MSNfield {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: none;
+  }
+  .dateDiv > label {
+    width: 100%;
+    text-align: left;
+  }
+  .welcomeWrapperRight  {
+    margin-top: 10%;
+    text-align: left;
+  }
+  .consentBtn {
+    position: absolute;
+    left: 10%;
+    top: 490px; 
+    width: 80%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .thksTXT {
+    align-content: center;
+    padding-left: 20px; 
+    padding-right: 20px; 
+    padding-top: 40px; 
+    padding-bottom: 5px; 
+    width: 100%;
+  }
+  .thksTXTcont > p {
+    width: 100%; 
+    height: auto; 
+    overflow: auto; 
+    text-align: center; 
+  }
+  .HeaderTxt {
+    font-family: Roboto;
+    font-size: 28px;
+  }
+  .subTitle {
+    font-family: Roboto light;
+    font-size: 16px;
+  }
+  .waitHeader {
+    margin: 30px 0px 5px 0px;
+    line-height: 14px;
+    text-align: center;
+    font-family: Roboto medium;
+    font-size: 14px;
+  }
+  .waitSubTitle {
+    margin: 0;
+    line-height: 16px;
+    text-align: center;
+    font-family: Roboto Black;
+    font-size: 16px;
+  }
+  .waitingWrapperLeft, .waitingWrapperRight {
+    margin: 0px;
+    font-family: Roboto;
+    text-align: center;
+    padding: 30px 40px 0px 40px;
+  }
+  .waitingWrapperLeft {
+    
+  }
+  .waitingWrapperRight {
+    padding: 0px;
+  }
+  .connectingHeader {
+      font-family: Roboto medium;
+      margin: 0;
+      font-size: 14px;
+  }
+  .connectingSubTitle {
+      font-family: Roboto black;
+      font-size: 19px;
+  }
+  #txtIphone {
+    position: absolute;
+    right: 10%;
+    text-align: center;
+    width: 80%;
+  }
+  .counterLBL {
+    font-family: Roboto light;
+  }
+  .counter {
+    font-family: Roboto Medium; 
+    font-size: 100px; 
+    color: #2C378C;  
+    margin: 0; 
+    line-height: 90px;
+  }
+  .seconds {
+    font-family: Roboto Medium; 
+    font-size: 16px; 
+    padding-top: 0;
+  }
+  .btnCall {
+    padding-left: 2%; 
+    padding-right: 2%; 
+    padding-top: 5px; 
+    padding-bottom: 5px; 
+    width: 100%; 
+    display: flex; 
+    justify-content: center;
+  }
+  .chatInput {
+    height: 47px;
+    width: 68.7%;
+  }
+    .contentInput {
+    width: 85%; 
+    height: 50px;
+    display: flex; 
+    flex-wrap: wrap;
+  }
+  .inputBox {
+    width: 100%; 
+    border: 1px solid lightgray; 
+    border-radius: 5px; 
+    padding-left: 8px; 
+  }
+  .boxContentsInput {
+    width: 100%;
+    height: 49px;
+  }
+    
+} 
+/*    ////////////////    */
+
+
+
+
+
+
+
