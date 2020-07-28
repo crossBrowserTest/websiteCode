@@ -19,7 +19,7 @@
     <link href="./TeleHealth_files/main.css" rel="stylesheet">
     <link href="./TeleHealth_files/responsive.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="http://webservices-dev.caregroup.org/telehealth/images/BILHlogo.png">
-    
+    <script>var progressStep = 3</script>
     </head>
 <body>
     
@@ -128,10 +128,27 @@
                         strokeColor: "#999",
                         margin: 30
                     });  
-                    $progressBar.addStep("Start");  
-                    $progressBar.addStep("Consent");  
-                    $progressBar.addStep("Wait Room");
-                    $progressBar.addStep("See Doctor");
+                    if(progressStep == 0){
+                      $progressBar.addStep("Start") ;
+                    }else{
+                      $progressBar.addStep("");
+                    }
+                    if(progressStep == 1){
+                      $progressBar.addStep("Consent");
+                    }else{
+                      $progressBar.addStep("");
+                    }  
+                    if(progressStep == 2){
+                      $progressBar.addStep("Wait Room")
+                    }else{
+                      $progressBar.addStep("");
+                    }
+                
+                    if(progressStep == 3){
+                      $progressBar.addStep("See Doctor");
+                    }else{
+                      $progressBar.addStep("");
+                    }
                     $progressBar.refreshLayout();  
                     $progressBar.setCurrentStep(3);
                     $progressBar.getStep(0).setVisited(true);
