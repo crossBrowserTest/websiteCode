@@ -1415,7 +1415,7 @@
   }
   .chatBar {
     position: absolute;
-    bottom: 230px;
+    bottom: 60%;
     font-family: Roboto Medium;
     font-size: 16px;
     color: #fff;
