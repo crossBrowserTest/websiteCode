@@ -125,31 +125,14 @@
                         strokeColor: "#999",
                         margin: 30
                     });  
-                    if(progressStep == 0){
                       $progressBar.addStep("Start") ;
-                    }else{
-                      $progressBar.addStep("");
-                    }
-                    if(progressStep == 1){
                       $progressBar.addStep("Consent");
-                    }else{
-                      $progressBar.addStep("");
-                    }  
-                    if(progressStep == 2){
-                      $progressBar.addStep("Wait Room")
-                    }else{
-                      $progressBar.addStep("");
-                    }
-                
-                    if(progressStep == 3){
-                      $progressBar.addStep("See Doctor");
-                    }else{
-                      $progressBar.addStep("");
-                    }
-                    $progressBar.refreshLayout();  
-                    $progressBar.setCurrentStep(2);
-                    $progressBar.getStep(0).setVisited(true);
-                    $progressBar.getStep(1).setVisited(true);
+                      $progressBar.addStep("Wait")
+                      $progressBar.addStep("Dr Visit");
+                      $progressBar.refreshLayout();  
+                      $progressBar.setCurrentStep(2);
+                      $progressBar.getStep(0).setVisited(true);
+                      $progressBar.getStep(1).setVisited(true);
                   
                     $(window).resize(function(){$progressBar.refreshLayout();});
                 </script>  
