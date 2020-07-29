@@ -1138,7 +1138,7 @@
       padding-bottom: 0px;
     }   
     .Index_container#consent2 {
-      height: 1287px;
+      height: 170%;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
@@ -1149,12 +1149,11 @@
         padding: 0px 0px 0px 0px;
     }       
     .Banner_bannerWhiteContainer#whiteContainerConsent2 {
-        height: 1175px;
+        height: 630%;
         
     }
     .txtContainer{
       background-color: #fff;
-      height: 950px;
     }
     .txtBoxStp2 {
         background-color: #fff;
@@ -1165,8 +1164,16 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        height: 100%;
     }
+  
+  .txtBoxStp2+div{
+    display: none;
+  }
+  
+  .innerTxtStp2{
+    height:85%
+  }
+  
     .WelcomeBIDMC {
         background-color: #fff;
         padding: 30px 7px 0px 7px;
@@ -1360,10 +1367,14 @@
 /* This functions are for TeleHealthConsent2.htm */
     .inputWrapper {
       position: relative;
+      bottom: 0%;
       width: 100%;
       text-align: center;
       height: 150px;
     }
+  #hdlabelConsent2{
+    margin: 0px;
+  }
     /* controls inputbox position */
     #inputConsent2 {
       width: 100%;
