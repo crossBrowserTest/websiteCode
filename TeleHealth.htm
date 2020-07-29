@@ -147,66 +147,7 @@
             
               </div>
                
-<!--     OLD HTML PROGRESS BAR CODE --><!--
-        <div style="background-color: transparent; min-height: 10px; width: 100%; padding-top: 1%; padding-bottom: 1%;">
-                <div style="width: 100%; display: flex; justify-content: center; flex-wrap: wrap;">
-                    &nbsp;&nbsp;                                   
-                        <div>
-                            <svg height="60" width="60">
-                                <g>
-                                    <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#f57530"></circle>
-                                    <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">1</text>
-                                </g>
-                            </svg>
-                            <svg height="60" width="70">
-                                <text x="0" y="35" fill="#f57530" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Welcome</text>
-                            </svg>
-                            <svg height="60" width="20">
-                                <polygon points="6 22, 20 30, 6 38" fill="#1c9bd7"></polygon>
-                            </svg>
-                        </div>
-                    <div>
-                        <svg height="60" width="60">
-                            <g>
-                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#1c9bd7"></circle>
-                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">2</text>
-                            </g>
-                        </svg>
-                        <svg height="60" width="70">
-                            <text x="0" y="35" fill="#1c9bd7" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Consent</text>
-                        </svg>
-                        <svg height="60" width="20">
-                            <polygon points="6 22, 20 30, 6 38" fill="#1c9bd7"></polygon>
-                        </svg>
-                    </div>
-                    <div>
-                        <svg height="60" width="60">
-                            <g>
-                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#1c9bd7"></circle>
-                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">3</text>
-                            </g>
-                        </svg>
-                        <svg height="60" width="70">
-                            <text x="0" y="35" fill="#1c9bd7" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Waiting Room</text>
-                        </svg>
-                        <svg height="60" width="20">
-                            <polygon points="6 22, 20 30, 6 38" fill="#1c9bd7"></polygon>
-                        </svg>
-                    </div>
-                    <div>
-                        <svg height="60" width="60">
-                            <g>
-                                <circle cx="30" cy="30" r="18" stroke="red" stroke-width="0" fill="#1c9bd7"></circle>
-                                <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" stroke="white" stroke-width="2px" dy=".3em">4</text>
-                            </g>
-                        </svg>
-                        <svg height="60" width="85">
-                            <text x="0" y="35" fill="#1c9bd7" font-family="Roboto, sans-serif" font-size="16" font-weight="600">Virtual Visit</text>
-                        </svg>
-                    </div>
-                </div>
-                <div style="width: 100%; height: 1px; background-color: lightgray; overflow: hidden;"></div> -->
-<!-- Progress Bar Code Ends -->
+
             
          <!-- Body Container Middle part -->   
               <div class="Banner_bannerWhiteContainer">
@@ -229,7 +170,7 @@
                         <label class="messageHeadLabel">
                             <div>Enter Your Date of Birth:&nbsp;&nbsp;</div>
                         </label>
-                        <input name="txtDob" type="date" class="txtDob" placeholder="mm/dd/yyyy" >
+                        <input name="txtDob" type="date" class="txtDob" id="dobInput" placeholder="mm/dd/yyyy" >
                       </div>
                   </div>
 
@@ -248,9 +189,16 @@
                   </div>
                     
                   <div class="consentBtn">
-                      <div>
+                    <div>
                         <a id="lbtnStep1" class="btn btn-primary" href="./TeleHealthConsent2.htm">Go to "Consent"</a>
                       </div>
+                        <script>
+                              document.getElementById("dobInput").onfocus = function() {myFunction()};
+
+                              function myFunction() {
+                                document.getElementById("lbtnStep1").style.backgroundColor = "#F57530";
+                              }
+                        </script>
                   </div>
 
               </div>

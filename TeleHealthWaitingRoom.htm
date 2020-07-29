@@ -201,8 +201,18 @@
            <div class="chatBar">Chat with us!</div> 
             <button id="chatActiveBtn" class="chatBtn" >Click here if you want to chat with us</button>
             <div class="MSNfield">
-              <input class="chatInput" type="text" placeholder="Can you please let me know?">
+              <input class="chatInput" type="text" id="chatInp" placeholder="Can you please let me know?">
               <button id="btnSend" class="sendBtn">Send</button>
+              <script>      
+                document.getElementById("chatInp").onfocus = 
+                function() {
+                  myFunction()
+                };
+                function myFunction() {
+                     document.getElementById("btnSend").style.backgroundColor = "#F57530";
+                }
+              </script>
+              
             </div>
             
           <script>
