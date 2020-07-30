@@ -7,6 +7,13 @@
         height: 100%;
         overflow-x: hidden;
       }
+      footer {
+        text-align: center;
+        font-size: 12px;
+        padding: 3px;
+        background-color: #f4f4f0;
+        color: #333;
+      }
       .Header_headerContainer, .Index_container, .Header_headerBottom, {
         width: inherit;
       } 
@@ -538,6 +545,12 @@
     width: 100%;
     height: 100%;
     overflow-x: hidden;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #f4f4f0;
+    color: #333;
   }
   .Header_headerBottomContainer {
     margin: auto;
@@ -1089,6 +1102,15 @@
     height: 100%;
     overflow-x: hidden;
   }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #f4f4f0;
+    color: #333;
+  }
+  #form1 {
+    /*height: auto;*/
+  }
   /* Header margins live here*/
   .Header_headerBottomContainer {
     width: 100%;
@@ -1139,7 +1161,7 @@
         
     }
     .Index_container {
-      height: 850px;
+      height: 900px;
       width: inherit;
       padding-bottom: 0px;
     }   
@@ -1150,7 +1172,7 @@
         position: relative;
         background-color: #fff;
         width: 90%;
-        height: 745px;
+        height: 290%;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }       
@@ -1413,7 +1435,7 @@
   /* Functions for TeleHealthWaitingRoom.htm */
   .waitingState {
     width: 100%;
-    height: 90%;
+    height: 80%;
   }
   .connectingState {
     width: 100%;
@@ -1445,7 +1467,7 @@
   .contentFooter {
     background-color: #fff;
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     /*background-color: #fff;*/
     width: 90%;
     height: 18%;
@@ -1580,7 +1602,7 @@
     padding-bottom: 5px; 
     width: 100%;
     height: 60px;
-    bottom: 280px;
+    bottom: 220px;
     display: flex; 
     justify-content: center;
   }
