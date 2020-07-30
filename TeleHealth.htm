@@ -33,19 +33,19 @@
         </div>
 
         <script type="text/javascript">
-        //<![CDATA[
-        var theForm = document.forms['form1'];
-        if (!theForm) {
-            theForm = document.form1;
-        }
-        function __doPostBack(eventTarget, eventArgument) {
-            if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
-                theForm.__EVENTTARGET.value = eventTarget;
-                theForm.__EVENTARGUMENT.value = eventArgument;
-                theForm.submit();
+            //<![CDATA[
+            var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
             }
-        }
-        //]]>
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
         </script>
 
 
@@ -69,7 +69,7 @@
 	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="10z/qECqmA/1InTOqSPY6Q43OwwKI7FtbYb6USV1ezl3dL3BMlg33nAc47U3CMaz78ujKJ4NYbSGtWC72dIqaxR+x5jtT324FWkIA9o1gTmBiMEqSFnnCOgz4a5YQR+8DESdZ+Ih78MkYVXqmnmo9cTMralCUgEp3HgYKSBHw/TORBudb9o/jXN178v9TFZ4AO/C9Pt4i0t2Hi6idz/8Ij/n0+GY8iox3tcSSQArssFsD+wxZ6DzDRi7Bzvl59AmMn0aIHUhJ/JUSEBkxjI32oEeFzuKb08hdHKdyWWh3+CT8kp3EWEyeO0sSelNM8Rn7jGxCSNO29W8LKB8aZsQcNeejo+WvS/LFpqhSTPBrw2Yh+o6WtDCbftTsLqRsoSN52dqJ2d7/l0t/M1qYQdVlc7L5QIQL5/RZgFBSmnIPiDpBo4euKtJHYvI2fj4aE58">
 </div>
       <!-- Header division for container on the top -->
-        <div class="Header_headerContainer">
+        <header class="Header_headerContainer">
 
           <div class="Header_headerBottom">
             <div class="Header_headerBottomContainer">
@@ -107,22 +107,23 @@
                       </div>
                      </div>
                   </div>
-              
+
+              </div>
             </div>
-          </div>
-      </div>
+          </header>
     
         
   <!-- Body Division starts here -->
     <div class="Index_container">
+          <!-- Banner on top with logo and progress bar -->
           <div class="Banner_bannerContainer">
                 
-  <!-- Banner Division with Container with Logo  -->        
+            <!-- Banner Division with Container with Logo  -->        
             <div class="Banner_bannerTitleContainer">
               <h2 class="Banner_bannerTitle">TeleHealth</h2>
 
 
-  <!-- NEW PROGRESS BAR JQUERY & RAPHAEL  --> 
+              <!-- NEW PROGRESS BAR JQUERY & RAPHAEL  --> 
               <div id="progressBar" class="progBar"></div>
               <script>
 
@@ -145,11 +146,9 @@
 
                 </script>  
             
-              </div>
-               
-
+            </div>
             
-         <!-- Body Container Middle part -->   
+              <!-- Body Container Middle part -->   
               <div class="Banner_bannerWhiteContainer">
 
                   <div class="welcomeWrapperLeft">
