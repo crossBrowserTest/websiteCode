@@ -552,6 +552,9 @@
     background-color: #f4f4f0;
     color: #333;
   }
+    #form{
+      height: 100%;
+    }
   .Header_headerBottomContainer {
     margin: auto;
   }
@@ -600,7 +603,7 @@
         
     }
     .Index_container {
-      height: 915px;
+      height: 928px;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
@@ -926,13 +929,12 @@
   
   .contentFooter {
     position: absolute;
-    bottom: 0;
+    bottom: 5%;
     width: 90%;
     margin-left: 5%;
     margin-right: 5%;
-    height: 25%;
     background-color: #fff;
-   
+    height: 20%;
   }
 
   .MSNfield {
@@ -1109,7 +1111,7 @@
     color: #333;
   }
   #form1 {
-    /*height: auto;*/
+    height: 100%;
   }
   /* Header margins live here*/
   .Header_headerBottomContainer {
