@@ -14,6 +14,10 @@
         background-color: #f4f4f0;
         color: #333;
       }
+      #form1 {
+        height: 92%;
+        background-color: #f4f4f0;
+      }
       .Header_headerContainer, .Index_container, .Header_headerBottom, {
         width: inherit;
       } 
@@ -363,12 +367,12 @@
           height: 46px;
       }
         .Index_container {
-          height: 100%;
+          height: 85%;
         }
         .Banner_bannerWhiteContainer{
             background-color: #fff;
             width: 90%;
-            height: 390px;
+            height: 380%;
             margin: 10px 0px 0px 0px;
         }
       .chatBar {
@@ -553,7 +557,8 @@
     color: #333;
   }
     #form{
-      height: 100%;
+      height: 90%;
+      background-color: #f4f4f0;
     }
   .Header_headerBottomContainer {
     margin: auto;
