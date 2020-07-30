@@ -834,7 +834,7 @@
       width: 100%; 
       color: #4F4F4F;
       font-family: Roboto;
-      font-size: 13px;
+      
   }
     
   /* Controls Label on top of inputbox position */
@@ -1168,25 +1168,20 @@
         
     }
     .Index_container {
-      height: 900px;
+      height: 125%;
       width: inherit;
       padding-bottom: 0px;
     }   
-    .Index_container#consent2 {
-      height: 170%;
-    }
+
     .Banner_bannerWhiteContainer {
         position: relative;
         background-color: #fff;
         width: 90%;
-        height: 290%;
+        height: 456%;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }       
-    .Banner_bannerWhiteContainer#whiteContainerConsent2 {
-        height: 630%;
-        
-    }
+
     .txtContainer{
       background-color: #fff;
     }
@@ -1406,6 +1401,7 @@
       width: 100%;
       text-align: center;
       height: 150px;
+      padding-top: 1%;
     }
   #hdlabelConsent2{
     margin: 0px;
@@ -1609,7 +1605,7 @@
     padding-bottom: 5px; 
     width: 100%;
     height: 60px;
-    bottom: 220px;
+    /*bottom: 220px;*/
     display: flex; 
     justify-content: center;
   }
