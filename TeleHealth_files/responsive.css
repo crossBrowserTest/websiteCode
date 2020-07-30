@@ -400,8 +400,10 @@
       }
       .MSNfield {
         position: absolute;
+        left: 2%;
+        right: 2%;
         bottom: 0;
-        width: 100%;
+        width: 96%;
         display: none;
       }
       .dateDiv > label {
@@ -519,7 +521,7 @@
       }
       .chatInput {
         height: 47px;
-        width: 68.7%;
+        width: 68%;
       }
         .contentInput {
         width: 85%; 
