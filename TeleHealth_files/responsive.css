@@ -14,6 +14,10 @@
         background-color: #f4f4f0;
         color: #333;
       }
+    footer p {
+      padding-left: 5%;
+      padding-right: 5%;
+    }
       #form1 {
         height: 92%;
         background-color: #f4f4f0;
@@ -327,6 +331,8 @@
       }
       #txtPatientInput {
         margin-top: 12%;
+        margin-left: 2%;
+        margin-right: 2%;
         border: 1px solid lightgray;
         border-radius: 5px;
         padding-left: 8px;
@@ -393,8 +399,9 @@
       .contentFooter {
         background-color: #fff;
         position: absolute;
-        bottom: 0;
-        width: 100%;
+        bottom: 8%;
+        width: 90%;
+        left: 5%;
         height: 15%;
 
       }
