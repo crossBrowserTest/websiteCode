@@ -565,10 +565,14 @@
     background-color: #f4f4f0;
     color: #333;
   }
-    #form1{
-      height: 95%;
-      background-color: #f4f4f0;
-    }
+  footer p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+  #form1{
+    height: 95%;
+    background-color: #f4f4f0;
+  }
   .Header_headerBottomContainer {
     margin: auto;
   }
@@ -1126,7 +1130,7 @@
   }
   #form1 {
     background-color: #f4f4f0;
-    height: 100%;
+    height: 95%;
   }
   /* Header margins live here*/
   .Header_headerBottomContainer {
@@ -1179,7 +1183,7 @@
     }
     .Index_container {
       background-color: #f4f4f0;
-      height: 100% !important;
+      height: 80% !important;
       width: inherit;
       padding-bottom: 0px;
     }   
@@ -1188,7 +1192,7 @@
         position: relative;
         background-color: #fff;
         width: 90%;
-        height: 362%;
+        height: 345%;
         margin: 10px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
     }
@@ -1465,7 +1469,7 @@
   /* Functions for TeleHealthWaitingRoom.htm */
   .waitingState {
     width: 100%;
-    height: 80%;
+    height: 50%;
   }
   .connectingState {
     width: 100%;
