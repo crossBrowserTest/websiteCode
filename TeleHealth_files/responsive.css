@@ -556,8 +556,8 @@
     background-color: #f4f4f0;
     color: #333;
   }
-    #form{
-      height: 90%;
+    #form1{
+      height: 95%;
       background-color: #f4f4f0;
     }
   .Header_headerBottomContainer {
@@ -608,7 +608,7 @@
         
     }
     .Index_container {
-      height: 928px;
+      height: 70%;
     }
     .Banner_bannerWhiteContainer {
         position: relative;
@@ -901,7 +901,7 @@
   /* Functions for TeleHealthWaitingRoom.htm */
   .waitingState {
     width: 100%;
-    height: 100%;
+    height: 83%;
   }
   .connectingState {
     width: 100%;
