@@ -124,9 +124,7 @@
                    
                     var $progressDiv = $("#progressBar");  
                     var $progressBar = $progressDiv.progressStep({
-                        fillColor: "#fff",
-                        strokeColor: "#999",
-                        margin: 30
+
                     });  
                       $progressBar.addStep("Start") ;
                       $progressBar.addStep("Consent");
@@ -134,6 +132,7 @@
                       $progressBar.addStep("Dr Visit");
                       $progressBar.refreshLayout();  
                       $progressBar.setCurrentStep(3);
+                      $progressBar.refreshLayout(); 
                       $progressBar.getStep(0).setVisited(true);
                       $progressBar.getStep(1).setVisited(true);
                       $progressBar.getStep(2).setVisited(true);
