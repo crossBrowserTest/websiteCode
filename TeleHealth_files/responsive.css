@@ -1134,6 +1134,7 @@
     height: 95%;
     overflow: hidden;
   }
+
   /* Header margins live here*/
   .Header_headerBottomContainer {
     width: 100%;
@@ -1285,7 +1286,15 @@
     }
   
   /* hover effect for bottons  */
+    .btn.btn-primary {
+        border-radius: 0rem !important;
+        border: none !important;
+        outline: none !important;
+        box-shadow: none !important;
+    }
+    
     .btn.btn-primary#lbtnStep1 {
+ 
         background-color: #CACED2;
         color: #504F4F;
         width: 360px;
@@ -1299,8 +1308,6 @@
     }
   
     .btn.btn-primary#lbtnStep2 {
-        background-color: #CACED2;
-        color: #504F4F;
         width: 360px;
         height: 40px;
         font-family: Roboto;
